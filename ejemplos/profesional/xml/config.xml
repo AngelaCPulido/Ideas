@@ -1,0 +1,188 @@
+<data>
+	 
+	 <!-- website name to be displayed as browser title -->
+	 <websiteName>Pin Up Design Studio</websiteName>
+	 
+	 <!-- the url of the main template swf -->
+	 <templateSWF>qcreative.swf</templateSWF>
+	 
+	 <!-- xml urls paths --> 
+	 <xmlUrls>
+	 
+	 	  <!-- the path to the menu.xml file --> 
+	 	  <menu>xml/menu.xml</menu>
+		  
+	 </xmlUrls>
+	
+	<!-- edit logo setup here -->
+	<logo>
+	
+		  <!-- url to your logo, can be image or swf -->
+		  <url>images/qlogo.png</url>
+		  
+		  <!-- x position -->
+		  <x>30</x>
+		  
+		  <!-- y position -->
+		  <y>30</y>
+		  
+	</logo>
+	
+	<!-- useColor = choose to use a gradient or solid color as a menu background, true/false -->
+	<!-- usePattern = choose to use a pattern as a menu background, true/false -->
+	
+	<!-- * colors and pattens can not be used together -->
+	<!-- * for a solid color, enter the same color twice for both the colorStart and colorEnd parameters -->
+	<menu useColor="false" usePattern="false">
+		
+		<!-- the first color in the gradient -->
+		<colorStart>#990000</colorStart>
+		
+		<!-- the second color in the gradient -->
+		<colorEnd>#000000</colorEnd>
+		
+		<!-- the direction of the gradient, options are "vertical" and "horizontal" -->
+		<direction>vertical</direction>
+		
+		<!-- the URL of your patten graphic -->
+		<patternURL>images/pattern.png</patternURL>
+		
+	</menu>
+	
+	<!--
+	spectrum = a percentage that helps to adjust the music equalizer
+	useMusic = choose whether to play music or not (true or false, case sensitive)
+	buffer = the ammount of time you wish to buffer each song (in milliseconds)
+	volume = the playback volume level (0-100)
+	-->
+	
+	<music useMusic="true" buffer="3000" volume="100">	
+				
+		   <!-- the url to each mp3 file -->
+		   <song spectrum="120">music/eternity.mp3</song>
+		   <song spectrum="90">music/rise.mp3</song>
+		   
+	</music>
+	
+	<!-- useIcons = choose to use icons, true/false -->
+	<!-- the icons can be in any order except for the music icon, which can be first or second -->
+	
+	<theIcons useIcons="true">
+		
+		<!-- topLevel = the top level of icons -->
+		<!-- only topLevel supports the fullScreen icon -->
+	
+		<!-- 
+	
+		type = only applicable to top-level icons, options are:
+	
+		* if fullScreen is used, normalScreen MUST be used and loaded after the fullscreen icon
+		* if social is used, a bottomLevel MUST exist
+	
+		1) fullScreen
+		2) normalScreen
+		3) social
+		4) link
+	
+		-->
+		
+		<!-- url = the url to your icon graphic -->
+		
+		<!-- you can add/remove icons as you please -->
+
+		<!-- useMusicAsSecond = music icon will be first or second, true/false -->
+		<topLevel useMusicAsSecond="false">
+			
+			<icon>
+				<type>fullscreen</type>
+				<url>images/icons/fullscreen_main.png</url>
+			</icon>
+			
+			<icon>
+				<type>normalscreen</type>
+				<url>images/icons/fullscreen_main.png</url>
+			</icon>
+		
+			<icon>
+				<type>social</type>
+				<url>images/icons/social.png</url>
+			</icon>
+			
+			<!-- below is an example of an icon with a simple link -->
+			
+			<!--
+			
+			<icon>
+				<type>link</type>
+				<url>images/icons/pawSmall.png</url>
+				<link>http://www.google.com</link>
+				<target>_blank</target>
+			</icon>
+			
+			-->
+			
+		</topLevel>
+		
+		<!-- bottomLevel = the bottom level of icons -->
+		<!-- bottomLevel icons can only be links (no full-screen support) -->
+		
+		<!-- url = the url of your icon -->
+		<!-- link = the link to go to -->
+		<!-- target = the window target of the link -->
+		
+		<!-- you can add/remove icons as you please -->
+		<!-- because icons can be resized, they will be loaded in reverse order for position purposes -->
+		
+		<bottomLevel>
+			
+			<icon>
+				<url>images/icons/inWhite.png</url>
+				<link>http://www.linkedin.com</link>
+				<target>_blank</target>
+			</icon>
+			
+			<icon>
+				<url>images/icons/gWhite.png</url>
+				<link>http://www.google.com</link>
+				<target>_blank</target>
+			</icon>
+			
+			<icon>
+				<url>images/icons/tWhite.png</url>
+				<link>http://www.twitter.com</link>
+				<target>_blank</target>
+			</icon>
+			
+			<icon>
+				<url>images/icons/fbWhite.png</url>
+				<link>http://www.facebook.com</link>
+				<target>_blank</target>
+			</icon>
+			
+		</bottomLevel>
+	
+	</theIcons>
+	
+	<!-- useCopyright = choose to use a copyright message, true/false -->
+	<copyright useCopyright="true">
+		
+		<!-- your copyright message -->
+		<text>COPYRIGHT PIN UP 2011</text>
+	
+	</copyright>
+	
+	<!-- the blurred menu backgrounds -->
+	<menuBlur>
+	
+		  <!-- the blur x strength -->
+		  <x>37</x>
+		  
+		  <!-- the blur y strength -->
+		  <y>37</y>
+		  
+		  <!-- the blur quality (values are 1, 2 or 3 with 3 begin the best -->
+		  <quality>3</quality>
+		  
+	</menuBlur>
+	
+</data>

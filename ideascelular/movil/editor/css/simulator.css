@@ -1,0 +1,491 @@
+/* preview window styling */
+
+body
+{
+	padding:0px;
+	margin:0px;
+	overflow-x:hidden;
+}
+
+#neePreview {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
+.neePreviewPopup
+{
+	margin-top:10px !important;
+}
+
+#neePreview .mcPop {
+	font: 14px Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #666;
+}
+
+#neePreview .mcPop * {
+	margin:0;
+	padding:0
+}
+
+/* Preview Popup */
+
+#neePreview #mcPopPreview {
+	position:relative;
+}
+
+/* Right Col */
+
+#neePreview .popRightMenu {
+	float:right;
+	width:128px;
+	height:256px;
+	margin-top:160px;
+	position: relative;
+	
+}
+
+/* Central Col */
+
+#neePreview .popPhone {
+	text-align:center;
+}
+
+#neePreview .previewDefault {
+	padding-top:34px;
+}
+
+#neePreview .previewPortrait {
+	padding-top:134px;
+}
+
+#neePreview .popPhone p {
+	display: block;
+	width: 191px;
+	height: 84px;
+	position: relative;
+	top: 34px;
+	right: 68px;
+	background: url(/editor/nee/images/preview/preview-icons.png) no-repeat 100% 100%;
+	overflow: hidden;
+	text-indent: -2000em;
+	text-align: left;
+	margin: 0px auto;
+	left: 315px;
+}
+
+/* Left Col */
+
+#neePreview .popLeftMenu {
+	float:left;
+	width:128px;
+	height: 750px;
+	border-right:1px solid #c1c1c1;
+	padding-top:28px;
+	padding-bottom:28px;
+	position:relative;
+	top:0px;
+}
+
+#neePreview .compareBeforeTag
+{
+	font: bold 19px arial !important;
+	color: #696969;
+}
+#neePreview .compareAfterTag
+{
+	font: bold 19px arial !important;
+	color: #696969;
+}
+#neePreview .compareBeforeTag img, #neePreview .compareAfterTag img
+{
+	margin-right: 10px !important;
+	vertical-align: middle;
+}
+#neePreview .compareBeforeTag span, #neePreview .compareAfterTag span
+{
+	vertical-align: middle;
+}
+/* Buttons */
+
+
+#neePreview #mcPopPreview ul {
+	list-style:none;
+	display:block;
+	position: relative;
+}
+
+#neePreview #mcPopPreview li {
+	display:block;
+}
+
+#neePreview #mcPopPreview li a {
+	width:88px;
+	height:50px;
+	display:block;
+	color:#666;
+	font-size:16px;
+	text-align:center;
+	padding:78px 20px 0;
+	background:url(/editor/nee/images/preview/preview-icons.png) no-repeat 48px 40px;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+#neePreview #mcPopPreview li a:hover, #neePreview #mcPopPreview li.current a {
+	color:#fff;
+	background-color:#eb8734;
+	background-position:-93px 40px
+}
+.previewDesignForResellers #neePreview #mcPopPreview li a:hover, #neePreview #mcPopPreview li.current a {
+	background-color:#cccccc;
+}
+#neePreview .popRightMenu li {
+	border:1px solid #ccc;
+	border-right:none;
+}
+
+
+
+#neePreview #mcPopPreview .popRightMenu li a {
+	font-size:14px;
+}
+
+/* Button Icons */
+
+/* iPhone*/
+#neePreview #mcPopPreview li#plmIphone a {
+	background-position:48px -86px
+}
+
+
+	
+
+
+#neePreview #mcPopPreview li#plmIphone a:hover, #neePreview #mcPopPreview li#plmIphone.current a {
+	background-position:-93px -86px
+}
+
+/* Windows */
+#neePreview #mcPopPreview li#plmWindows a {
+	background-position:48px -206px
+}
+
+#neePreview #mcPopPreview li#plmWindows a:hover, #neePreview #mcPopPreview li#plmWindows.current a {
+	background-position:-93px -206px
+}
+
+/* Blackberry */
+#neePreview #mcPopPreview li#plmBlackberry a {
+	background-position:48px -336px
+}
+
+#neePreview #mcPopPreview li#plmBlackberry a:hover, #neePreview #mcPopPreview li#plmBlackberry.current a {
+	background-position:-93px -336px
+}
+
+
+/* Rotate */
+#neePreview #mcPopPreview li#prmRotate a {
+	background-position:-267px 36px
+}
+
+#neePreview #mcPopPreview li#prmRotate a:hover, #mcPopPreview li#prmRotate.current a {
+	background-position:-437px 36px
+}
+
+#neePreview #mcPopPreview li#prmRotate.disabled a {
+	opacity:0.5;
+}
+
+#neePreview #mcPopPreview li#prmRotate.disabled a:hover, #mcPopPreview li#prmRotate.current a {
+	background-position:-267px 36px;
+	cursor:default;
+	background-color:white;
+	color: #666;
+}
+
+
+
+
+/* Send URL */
+#neePreview #mcPopPreview li#prmSend a {
+	background-position:-267px -82px
+}
+
+#neePreview #mcPopPreview li#prmSend a:hover, #mcPopPreview li#prmSend.current a {
+	background-position:-437px -82px
+}
+
+.compareBeforeWrapper
+{
+	float:left;
+}
+.compareAfterWrapper
+{
+	float:right;
+	margin: 0 45px !important;
+}
+#neePreview #neePrevieweviceWrapper
+{
+	position:relative;
+	margin: -80px auto 0px;
+
+}
+
+#neePreview #neePrevieweviceWrapper .neeIframeWrapper
+{
+	position: absolute;
+	border: 0px;
+	
+	
+}
+#neePreview .compareBeforeWrapper #neePrevieweviceWrapper .neeIframeWrapper, #neePreview  #neePrevieweviceWrapper .ios.neeIframeWrapper {
+	overflow: scroll;
+	
+}
+
+#neePreview #neePrevieweviceWrapper iframe
+{
+	width:100%;
+	height:100%;
+	border: 0px;
+	
+}
+
+#neePreview .iPhone
+{
+	width: 390px;
+	height: 620px;
+	background: url(/editor/nee/images/devices/iphone4-1.png) no-repeat;
+	padding: 140px 10px 0px 0px;
+	top:-22px;
+}
+#neePreview .iPhone .neeIframeWrapper
+{
+	
+	top: 139px;
+	left: 32px;
+	width: 337px;
+	height: 480px;
+}
+
+#neePreview .compareZoomed .iPhone .neeIframeWrapper
+{
+width: 962px;
+height: 1368px;
+}
+
+#neePreview .iPhone.landscape
+{
+	width: 743px;
+	height: 261px;
+	background: url(/editor/nee/images/devices/iphone4-2.png) no-repeat;
+	top: 89px;
+	
+}
+#neePreview .iPhone.landscape .neeIframeWrapper
+{
+	top: 31px;
+	left: 139px;
+	width: 479px;
+	height: 337px;
+}
+
+
+
+
+#neePreview .compareZoomed .neeIframeWrapper
+{
+-webkit-transform: scale(0.35, 0.35);
+-moz-transform: scale(0.35, 0.35);
+-o-transform: scale(0.35, 0.35);
+-ms-transform: scale(0.35, 0.35);
+transform: scale(0.35, 0.35);
+-moz-transform-origin: top left;
+-webkit-transform-origin: top left;
+-o-transform-origin: top left;
+-ms-transform-origin: top left;
+transform-origin: top left;
+
+}
+
+/* android */
+#neePreview .android
+{
+	width: 400px;
+	height: 650px;
+	background: url(/editor/nee/images/devices/nexus-1.png) no-repeat;
+	padding: 140px 10px 0px 0px;
+	top:-22px;
+}
+#neePreview .android .neeIframeWrapper
+{
+	top: 89px;
+	left: 32px;
+	width: 337px;
+	height: 516px;
+}
+
+#neePreview .compareZoomed .android .neeIframeWrapper
+{
+width: 956px;
+height: 1479px;
+}
+
+#neePreview .android.landscape
+{
+	width: 754px;
+	height: 243px;
+	background: url(/editor/nee/images/devices/nexus-2.png) no-repeat;
+	top:89px;
+	
+}
+#neePreview .android.landscape .neeIframeWrapper
+{
+	top: 32px;
+	left: 87px;
+	width: 526px;
+	height: 320px;
+}
+
+
+/* windows phone */
+#neePreview .windows
+{
+	width: 400px;
+	height: 650px;
+	background: url(/editor/nee/images/devices/winphone7-1.png) no-repeat;
+	padding: 140px 10px 0px 0px;
+	top:-22px;
+}
+#neePreview .windows .neeIframeWrapper
+{
+	top: 64px;
+	left: 33px;
+	width: 337px;
+	height: 533px;
+}
+
+#neePreview .compareZoomed .windows .neeIframeWrapper
+{
+width: 959px;
+height: 1522px;
+}
+
+#neePreview .windows.landscape
+{
+	width: 741px;
+	height: 258px;
+	background: url(/editor/nee/images/devices/winphone7-2.png) no-repeat;
+	top: 96px;
+	
+}
+#neePreview .windows.landscape .neeIframeWrapper
+{
+	top: 33px;
+	left: 64px;
+	width: 526px;
+	height: 320px;
+}
+
+/* blackberry  */
+#neePreview .blackberry
+{
+	width: 378px;
+	height: 532px;
+	background: url(/editor/nee/images/devices/blackberry-1.png) no-repeat;
+	padding: 140px 10px 0px 0px;
+	top:12px;
+}
+#neePreview .blackberry .neeIframeWrapper
+{
+	top: 119px;
+	left: 24px;
+	width: 337px;
+	height: 242px;
+}
+
+#neePreview .compareZoomed .blackberry .neeIframeWrapper
+{
+width: 959px;
+height: 690px;
+}
+
+.previewDesignForResellers #neePreview
+{
+	background-color: white;
+	width: 1100px;
+	height: 806px;
+	margin: 2em auto;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow: 1px 0px 4px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 1px 0px 4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 0px 4px rgba(0,0,0,0.75);
+}
+.resellerLogoSmall
+{
+	max-width: 120px;
+	max-height: 70px;
+	display: block;
+	margin-bottom: 50px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	background-position: 50% 50% !important;
+	background-size: 120px;
+}
+.previewDesignForResellersCompare  #neePreview
+{
+	background-color: white;
+	width: 1100px;
+	height: 860px;
+	margin: 2em auto;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	box-shadow: 1px 0px 4px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 1px 0px 4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 0px 4px rgba(0,0,0,0.75);
+}
+.previewDesignForResellersCompare .previewDefault
+{
+	float: right;
+}
+.previewDesignForResellersCompare #neePreview .popLeftMenu
+{
+	height: 805px;
+}
+.previewDesignForResellersCompare #neePreview #neePrevieweviceWrapper
+{
+	padding: 140px 1px 0px 0px;
+	margin: 30px 0 0 0;
+}
+
+
+@media all and (max-width: 1145px)
+{
+		.previewDesignForResellersCompare #neePreview
+		{
+			width: 980px;
+		}
+		#neePreview .previewDefault
+		{
+			width: 851px !important; 
+		}
+		.compareBeforeWrapper
+		{
+			margin: 0  0  0 15px !important;
+		}
+		.compareAfterWrapper
+		{
+			margin: 0 15px 0 0 !important;
+		}
+		
+		.visibilityHiddenBelow1024
+		{
+			visibility:hidden;
+		}
+}

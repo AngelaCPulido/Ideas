@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<data>
+	
+	<settings>
+		
+		<width>720</width>
+		<height>400</height>
+		
+		<autoPlay>true</autoPlay>
+		<useNumButtons>true</useNumButtons>
+		
+		<!-- 
+		invertButtons:
+		true = the default behaviour for button color, button backgrounds will be inverted
+		false = buttons will have a black transparent background
+		 -->
+		<invertButtons>false</invertButtons>
+		
+		<!-- randomizeOrder = choose to randomize the order of the slides below -->
+		<randomizeOrder>false</randomizeOrder>
+		
+		<!-- randomSlide = for autoPlay, load in a random slide -->
+		<randomSlide>false</randomSlide>
+		
+		<!-- infoBehaviour = forceOn, forceOff, perSlide -->
+		<infoBehaviour>perSlide</infoBehaviour>
+		
+		<!-- this is a global option.  If set to false, the info button will never be shown.  If set to true, you can adjust it per slide below -->
+		<useInfoButton>true</useInfoButton>
+		
+		<useStylesheet>true</useStylesheet>
+		<stylesheetURL>css/textstyle.css</stylesheetURL>
+		
+	</settings>
+	
+	<content>
+		
+		<!-- 
+		fadeType:
+		bars = the default fade type
+		basic = a simple fade in.  Fade over is always used for basicFade
+		 -->
+		
+		<!-- 
+		fadeOver:
+		false = fade out current slide before loading in new slide
+		true = fade new slide over current slide
+		 -->
+		 
+		 <!-- 
+		 showInfo is only relevent when "perSlide" is chosen above as the default "infoBehaviour" 
+		 showInfo = whether or not to automatically show the slide info after the slide loads
+		 -->
+		 
+		 <!-- useInfoButton is only relevent if the global setting above is set to "true" -->
+	
+		<item>
+			<image>images/banner/img1.jpg</image>
+			<delay>3</delay>
+			<fadeType>bars</fadeType>
+			<fadeOver>true</fadeOver>
+			<showInfo>true</showInfo>
+			<useInfoButton>true</useInfoButton>
+			<link>http://www.activeden.net</link>
+			<linkTarget>_blank</linkTarget>
+			<title><![CDATA[<!-- BEGIN -->OUR NEW FASHION ONLINE STORE IS NOW OPENED<!-- END -->]]></title>
+			<description><![CDATA[<!-- BEGIN --><normal_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis lacinia placerat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ante velit, dignissim sit amet posuere at, iaculis vestibulum libero. Vivamus leo nulla, eleifend eget ultricies in, molestie vel enim. Aenean mauris erat, tincidunt a rhoncus at, mattis eget felis.</normal_text><!-- END -->]]></description>
+		</item>
+		
+		<item>
+			<image>images/banner/img2.jpg</image>
+			<delay>3</delay>
+			<fadeType>basic</fadeType>
+			<fadeOver>false</fadeOver>
+			<showInfo>true</showInfo>
+			<useInfoButton>true</useInfoButton>
+			<link></link>
+			<linkTarget></linkTarget>
+			<title><![CDATA[<!-- BEGIN -->MEET OUR NEW FASHION MODELS FROM LOS ANGELES<!-- END -->]]></title>
+			<description><![CDATA[<!-- BEGIN --><normal_text>Etiam vitae massa eget elit faucibus ultrices quis et sapien. Donec lectus mi, pharetra vitae aliquam at, eleifend non orci. Cras lobortis felis a risus porta eget porta nisi porta. Duis egestas est a nibh malesuada at vehicula eros scelerisque. Cras rhoncus porta rutrum. Proin venenatis, risus sed vehicula cursus, ligula risus egestas velit, et interdum purus quam id nibh. Phasellus ornare iaculis augue, quis consectetur ante mollis vulputate. Integer feugiat sem a mi sagittis rutrum venenatis nibh lacinia. Phasellus rhoncus dui metus.</normal_text><!-- END -->]]></description>
+		</item>
+		
+		<item>
+			<image>images/banner/img3.jpg</image>
+			<delay>3</delay>
+			<fadeType>bars</fadeType>
+			<fadeOver>false</fadeOver>
+			<showInfo>true</showInfo>
+			<useInfoButton>true</useInfoButton>
+			<link></link>
+			<linkTarget></linkTarget>
+			<title></title>
+			<description></description>
+		</item>
+		
+		<item>
+			<image>images/banner/bannerswf.swf</image>
+			<delay>3</delay>
+			<fadeType>bars</fadeType>
+			<fadeOver>true</fadeOver>
+			<showInfo>true</showInfo>
+			<useInfoButton>true</useInfoButton>
+			<link></link>
+			<linkTarget></linkTarget>
+			<title><![CDATA[<!-- BEGIN -->ANGEL MADE A STATEMENT<!-- END -->]]></title>
+			<description></description>
+		</item>
+		
+
+	
+	</content>
+	
+</data>

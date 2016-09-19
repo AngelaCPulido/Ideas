@@ -1,0 +1,4 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme License (http://www.yootheme.com/license) */
+
+window.addEvent("domready",function(){$$("div.feed-global").each(function(a){var b=a.getElement("input[name=_global]");a=a.getElement("div.input");var c=new Fx.Slide(a,{duration:150}),e=a.getElements("input");b.getProperty("checked")&&c.hide();b.addEvent("change",function(){if(this.getProperty("checked")){e.setProperty("name",this.getProperty("id"));c.slideOut()}else{e.each(function(f){f.setProperty("name",f.getProperty("role"))});c.slideIn()}});var d=a.getElement("div.feed-input");b=a.getChildren().filterByTag("input");
+b[0].getProperty("checked")&&d.setStyle("visibility","hidden");b[0].addEvent("change",function(){d.setStyle("visibility","hidden")});b[1].addEvent("change",function(){d.setStyle("visibility","visible")})})}); 

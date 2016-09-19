@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element type="image" group="Media">
+	<name>Image</name>
+	<author>YOOtheme</author>
+	<creationDate>March 2009</creationDate>
+	<copyright>Copyright (C) 2007 - 2009 YOOtheme GmbH</copyright>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.0.0</version>
+	<description>HTML Image</description>
+	<params>
+		<param name="name" type="text" default="" label="Name" description="Name used in item editor" />
+		<param name="description" type="text" default="" label="Description" description="DESCRIPTION_TOOLTIP_ITEM_EDITOR" />
+		<param name="custom_link" type="radio" default="0" label="Custom link" description="Custom image link in item view.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="custom_title" type="radio" default="0" label="Custom Title" description="CUSTOM_TITLE_DESCRIPTION">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="default_rel" type="text" default="" label="Rel Attribute" description="DEFAULT_REL_ATTRIBUTE" />
+	</params>
+	<params group="render">
+		<param name="showlabel" type="radio" default="0" label="Show Label" description="Show/Hide element label">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="altlabel" type="text" default="" label="Alternative Label" description="CUSTOM_LABEL" />
+		<param name="width" type="text" default="" label="Resize Width (px)" description="DYNAMICALLY_RESIZE_IMAGE_WIDTH" />
+		<param name="height" type="text" default="" label="Resize Height (px)" description="DYNAMICALLY_RESIZE_IMAGE_HEIGHT" />
+		<param name="link_to_item" type="radio" default="1" label="Link to item" description="Image is linked to item view.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>	
+	</params>
+</element>

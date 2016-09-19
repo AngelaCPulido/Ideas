@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+
+<!-- Mirrored from mobile.dudamobile.com/site/ideas-soluciones_1 by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 05 Sep 2012 16:32:14 GMT -->
+<head>
+<TITLE>Mobile Site Preview</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<LINK REL="SHORTCUT ICON" HREF="noicon.html">
+
+<script type="text/javascript" src="../../ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="../../ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+
+<link type="text/css" rel="stylesheet" href="../../ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/base/jquery-ui.css" />
+
+
+
+<script type="text/javascript" src="../../ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="../../ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+
+<link type="text/css" rel="stylesheet" href="../../ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/base/jquery-ui.css" />
+<script type="text/javascript">
+function initLayout() {
+	var myIframe = document.getElementById('iframeWindow');
+	if(myIframe.contentWindow.jQuery.layoutManager != null) {
+		setTimeout(function() {
+			myIframe.contentWindow.jQuery.layoutManager.initLayout();
+		}, 500);	
+	}
+}
+
+$.extend({
+	
+	isMyStuffScrolling : function() {
+		var docHeight = $(document).height();
+		var scroll    = $(window).height() ;//+ $(window).scrollTop();
+		if(docHeight > scroll) return true;
+		else return false;
+	},
+	getScrollbarWidth : function() {
+		var scrollbarWidth = 0;
+		if ( !scrollbarWidth ) {
+			if ($.uaMatch(navigator.userAgent).browser == 'msie') {
+				var $textarea1 = $('<textarea cols="10" rows="2"></textarea>')
+						.css({ position: 'absolute', top: -1000, left: -1000 }).appendTo('body'),
+					$textarea2 = $('<textarea cols="10" rows="2" style="overflow: hidden;"></textarea>')
+						.css({ position: 'absolute', top: -1000, left: -1000 }).appendTo('body');
+				scrollbarWidth = $textarea1.width() - $textarea2.width();
+				$textarea1.add($textarea2).remove();
+			} else {
+				var $div = $('<div />')
+					.css({ width: 100, height: 100, overflow: 'auto', position: 'absolute', top: -1000, left: -1000 })
+					.prependTo('body').append('<div />').find('div')
+						.css({ width: '100%', height: 200 });
+				scrollbarWidth = 100 - $div.width();
+				$div.parent().remove();
+			}
+		}
+		return scrollbarWidth;
+		
+	}
+});
+
+</script>
+
+<link  type="text/css" rel="stylesheet" href="../editor/css/simulator.css"/>
+
+<style>
+	.form_div {
+		background-color:#E3A869;
+		-moz-box-shadow: 2px 2px 2px #666;
+		-webkit-box-shadow: 2px 2px 2px #666;
+		box-shadow: 2px 2px 2px #666;
+		width:360px;
+		padding: 4px;
+		margin-bottom: 10px;
+		height: 50px;
+		-moz-border-radius: 15px;
+		border-radius: 5px;
+		margin: 0px auto;
+	}
+  
+  
+</style>
+
+
+	<script>
+	//console.log(window.location);
+	//console.log( window.parent.location);
+	if (window.location != window.parent.location){
+		console.log('/site/ideas-soluciones_1?nosim=true');
+		window.location = '/site/ideas-soluciones_1?nosim=true';
+	}
+	</script>
+
+
+
+<script>
+function scrollIframe(cord)
+{
+	var myIframe = document.getElementById('DM_PREVIEW_FRAME');
+
+    myIframe.contentWindow.document.getElementsByTagName("body")[0].scrollTop = cord;
+}
+</script>
+<link rel="shortcut icon" href="#"/>
+</head>
+
+<body>
+
+	
+		
+		  <div id="neePreview">
+	<div class="mcPop" id="mcPopPreview">
+		<div class="popRightMenu">
+			<ul>
+				<li id="prmRotate"><a href="javascript:void(0)" onclick="initLayout(); $('.popLeftMenu').toggleClass('visibilityHiddenBelow1024');$('#neePrevieweviceWrapper').toggleClass('landscape');iframeChanged();">Rotate</a></li>
+			</ul>
+		</div>
+		<div class="popLeftMenu">
+		
+			<ul>
+				<li id="plmAndroid" class="current"><a href="javascript:void(0)" onclick="initLayout(); $(this).closest('.popLeftMenu').find('li').removeClass('current');$(this).closest('li').addClass('current');$('#neePrevieweviceWrapper').removeAttr('class').addClass('android');$('#prmRotate').removeClass('disabled');iframeChanged();">Android</a></li>
+				<li id="plmIphone"><a href="javascript:void(0)" onclick="initLayout(); $(this).closest('.popLeftMenu').find('li').removeClass('current');$(this).closest('li').addClass('current');$('#neePrevieweviceWrapper').removeAttr('class').addClass('iPhone');$('#prmRotate').removeClass('disabled');iframeChanged();">iPhone</a></li>
+				<li id="plmWindows"><a href="javascript:void(0)" onclick="initLayout(); $(this).closest('.popLeftMenu').find('li').removeClass('current');$(this).closest('li').addClass('current');$('#neePrevieweviceWrapper').removeAttr('class').addClass('windows');$('#prmRotate').removeClass('disabled');iframeChanged();">Windows Phone</a></li>
+				<li id="plmBlackberry"><a href="javascript:void(0)" onclick="initLayout(); $(this).closest('.popLeftMenu').find('li').removeClass('current');$(this).closest('li').addClass('current');$('#neePrevieweviceWrapper').removeAttr('class').addClass('blackberry');$('#prmRotate').addClass('disabled');iframeChanged();">Blackberry</a></li>
+			</ul>
+		</div>
+		<div class="popPhone">
+			<p>Preview your site</p>
+			<div class="previewDefault">
+				<div id="neePrevieweviceWrapper">
+					<div class="neeIframeWrapper "> 
+				
+					<iframe id="iframeWindow" src="ideas-soluciones_12f9a.html?nosim=true">
+				
+				</iframe></div></div>
+			</div>
+			
+		</div>
+	</div>
+	
+</div>
+
+<script>
+$("#neePrevieweviceWrapper").attr("class", "android");
+$(window).load(function(){
+	 var tmpImage = new Image();
+     tmpImage.src = "../editor/nee/images/devices/nexus-2.png";
+     
+     tmpImage.src = "../editor/nee/images/devices/iphone4-1.png";
+     tmpImage.src = "../editor/nee/images/devices/iphone4-2.png";
+     
+     tmpImage.src = "../editor/nee/images/devices/winphone7-1.png";
+     tmpImage.src = "../editor/nee/images/devices/winphone7-2.png";
+     
+     tmpImage.src = "../editor/nee/images/devices/blackberry-1.png";
+     
+});
+
+function iframeChanged()
+{
+	$('#neePreview #neePrevieweviceWrapper iframe')[0].contentWindow.jQuery.DM.updateIOSHeight($('#neePreview #neePrevieweviceWrapper .neeIframeWrapper').height(), $('#neePreview #neePrevieweviceWrapper .neeIframeWrapper').width());
+}
+
+
+</script>
+	
+
+</body>
+
+<!-- Mirrored from mobile.dudamobile.com/site/ideas-soluciones_1 by HTTrack Website Copier/3.x [XR&CO'2010], Wed, 05 Sep 2012 16:32:43 GMT -->
+</html>

@@ -1,0 +1,88 @@
+<data>
+	
+	<settings>
+	
+		<thumbWidth>250</thumbWidth>
+		<thumbHeight>370</thumbHeight>
+		<useStyleSheet>true</useStyleSheet>
+		<cssURL>css/textstyle.css</cssURL>
+		
+		<useNumbers>false</useNumbers>
+		<numberSize>128</numberSize>
+		<numberColor>#FFFFFF</numberColor>
+		<numberX>55</numberX>
+		<numberY>110</numberY>
+		
+		<videoVolume>100</videoVolume>
+		<videoBuffering>3</videoBuffering>
+	
+	</settings>
+	
+	<item>
+		<thumbURL>images/mixed/thumbs/1.jpg</thumbURL>
+		<thumbDescription></thumbDescription>
+		<largeURL>images/mixed/img1.jpg</largeURL>
+		<largeTitle></largeTitle>
+		<largeDescription></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/mixed/thumbs/2.jpg</thumbURL>
+		<thumbDescription></thumbDescription>
+		<largeURL>images/mixed/img2.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->TITLE AND DESCRIPTION IS OPTIONAL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Nunc vestibulum nibh a sapien pharetra lobortis. In hac habitasse platea dictumst. Nam eu sapien nibh. Nullam condimentum augue quis lectus posuere varius. Cras mollis tempor nulla, ut adipiscing quam aliquam nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla laoreet rutrum libero vel placerat. Aliquam placerat mollis ipsum, at dapibus elit malesuada vel. Donec porta vulputate nulla at viverra. Nunc et semper diam. Phasellus vulputate, quam sed condimentum euismod, velit nisi sollicitudin erat, id luctus nisi quam ut sapien. Morbi vel metus libero. Vestibulum vitae elit ipsum. Duis congue tincidunt velit id consectetur. Nulla mollis turpis at lacus condimentum molestie. Aenean ornare feugiat eros, ac dapibus lacus luctus eget.</normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/mixed/thumbs/3.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN -->THUMB TITLE IS OPTIONAL<!-- END -->]]></thumbDescription>
+		<largeURL>images/videos/video.flv</largeURL>
+		<largeTitle></largeTitle>
+		<largeDescription></largeDescription>
+		<videoImage>images/videos/snapshots/video.jpg</videoImage>
+	</item>
+	
+
+	
+	<item>
+		<thumbURL>images/mixed/thumbs/4.jpg</thumbURL>
+		<thumbDescription></thumbDescription>
+		<largeURL>images/mixed/img4.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->THIS IMAGES HAS A TITLE BUT NO DESCRIPTION<!-- END -->]]></largeTitle>
+		<largeDescription></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/mixed/thumbs/5.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN -->ANOTHER VIDEO<!-- END -->]]></thumbDescription>
+		<largeURL>images/videos/video.flv</largeURL>
+		<largeTitle></largeTitle>
+		<largeDescription></largeDescription>
+		<videoImage>images/videos/snapshots/video.jpg</videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/mixed/thumbs/6.jpg</thumbURL>
+		<thumbDescription></thumbDescription>
+		<largeURL>images/mixed/img6.jpg</largeURL>
+		<largeTitle></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>This item has a description but no title, lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere massa eget ante rutrum semper. Praesent bibendum fringilla blandit. Suspendisse vehicula tortor vitae ipsum pharetra pretium condimentum odio eleifend. Donec vel massa ligula, in ultrices erat.</normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	
+	<item>
+		<thumbURL>images/mixed/thumbs/7.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN --><another_style>THIS IS A SWF MOVIE<another_style><!-- END -->]]></thumbDescription>
+		<largeURL>images/mixed/mixedswf.swf</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN --><another_style>THIS IS A SWF MOVIE SIMPLY BECAUSE IT'S SUPPORTED<another_style><!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque dignissim mauris nec vehicula. Fusce velit sem, posuere quis cursus sed, adipiscing nec purus. Ut eu metus sapien, vitae consequat magna. Integer mauris odio, hendrerit at rutrum non, pharetra nec orci. Mauris volutpat odio sit amet velit tempor ut dapibus mauris euismod. Nullam magna augue, consectetur non tincidunt vel, euismod id est. Praesent quis dolor erat. Aliquam et risus eget massa posuere luctus eget vitae sapien.</normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+
+</data>

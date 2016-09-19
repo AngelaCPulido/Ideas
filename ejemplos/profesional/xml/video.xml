@@ -1,0 +1,18 @@
+<data>
+	
+	<!-- Choose to auto-play video -->
+	<autoPlay>false</autoPlay>
+	
+	<!-- The initial volume, ranges from 0-100 -->
+	<videoVolume>100</videoVolume>
+
+	<!-- The amount to buffer the video in seconds -->
+	<videoBuffering>3</videoBuffering>
+
+	<!-- The url of the video -->
+	<videoURL>images/videos/4.flv</videoURL>
+
+	<!-- The url of the preview image -->
+	<videoImage>images/videos/snapshots/4.jpg</videoImage>
+
+</data>

@@ -1,0 +1,84 @@
+<data>
+
+<settings>
+
+	<useStyleSheet>true</useStyleSheet>
+	<styleSheetUrl>css/textstyle.css</styleSheetUrl>
+	
+	<phpUrl>php/contact.php</phpUrl>
+	
+	<submitFromEmailField>true</submitFromEmailField>
+	<restrictPhoneToNumbers>true</restrictPhoneToNumbers>
+	
+	<submitButtonText>SUBMIT</submitButtonText>
+	<clearButtonText>CLEAR</clearButtonText>
+	<successMessage><![CDATA[<!-- BEGIN -->MESSAGE SENT.  THANK YOU FOR YOUR FEEDBACK!<!-- END -->]]></successMessage>
+	
+</settings>
+
+<fields>
+
+	<!-- 
+	
+	fieldType:
+	
+		1) small
+		2) large (typically used for a message)
+	
+	 -->
+
+	 <!-- 
+	 
+	 validation (only relevent if "required" is set to "true") 
+	 
+	 	1) basic (a basic input field)
+		2) email
+		3) phone
+	 
+	 -->
+	 
+	<input isEmail="false">
+		<fieldName>Name...</fieldName>
+		<fieldType>small</fieldType>
+		<required>true</required>
+		<validationType>basic</validationType>
+		<errorMessage>Please enter your Name</errorMessage>
+	</input>
+	
+	<input isEmail="true">
+		<fieldName>Email...</fieldName>
+		<fieldType>small</fieldType>
+		<required>true</required>
+		<validationType>email</validationType>
+		<errorMessage>Please enter your Email</errorMessage>
+	</input>
+	
+	<input isEmail="false">
+		<fieldName>Phone...</fieldName>
+		<fieldType>small</fieldType>
+		<required>false</required>
+		<validationType>phone</validationType>
+		<errorMessage>Please enter your Phone number</errorMessage>
+	</input>
+	
+	<input isEmail="false">
+		<fieldName>Website...</fieldName>
+		<fieldType>small</fieldType>
+		<required>false</required>
+		<validationType>basic</validationType>
+		<errorMessage>Please enter your Website URL</errorMessage>
+	</input>
+	
+	<input isEmail="false">
+		<fieldName>Message...</fieldName>
+		<fieldType>large</fieldType>
+		<required>true</required>
+		<validationType>basic</validationType>
+		<errorMessage>Please enter your Message</errorMessage>
+	</input>
+
+</fields>
+
+<info><![CDATA[<!-- BEGIN --><title_text_2>ADDRESS</title_text_2><normal_text>Pin Up<br/>Bogotá, Colombia</normal_text><title_text_2>Teléfono</title_text_2><normal_text>0039 568 890</normal_text><title_text_2>FAX</title_text_2><normal_text>0039 405 675</normal_text><title_text_2>EMAIL</title_text_2><normal_text><a href="mailto:mail@pinup.com">mail@pinup.com</a></normal_text><title_text_2>WEB</title_text_2><normal_text><a href="http://www.activeden.net" target="_blank">www.pinup.com</a></normal_text><!-- END -->]]></info>
+
+</data>

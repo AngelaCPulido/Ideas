@@ -1,0 +1,4 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme License (http://www.yootheme.com/license) */
+
+Zoo.ApplicationEdit=new Class({initialize:function(d){this.setOptions({url:"index.php?option=com_zoo&controller=configuration",application_id:0,application_group:""},d);var a=this,b=$("parameter-accordion"),c=$("template"),e=new Fx.Style(b,"opacity",{duration:400});c.addEvent("change",function(){template=this.getValue();(new Ajax(a.options.url,{method:"post",data:{task:"getApplicationParams",format:"raw","cid[]":a.options.application_id,group:a.options.application_group,template:template},onRequest:function(){(new Element("span",
+{"class":"loader"})).injectAfter(c)},onComplete:function(f){document.getElement("span.loader").remove();e.start(0).chain(function(){b.empty().setHTML(f);Zoo.attachParameterAccordion();this.start(1)})}})).request()})}});Zoo.ApplicationEdit.implement(new Options); 

@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<gallery cellDimension="800" columns="3" zoomOutPerc="21" zoomInPerc="100" frameWidth="20" captionColor="0xFFFFFF" enableRightClickOpen="true">
+<image>
+<url>images/large/_6780472815.jpg</url>
+<caption></caption>
+</image>
+<image>
+<url>images/large/_9507079432.jpg</url>
+<caption></caption>
+</image>
+<image>
+<url>images/large/_2954271695.jpg</url>
+<caption></caption>
+</image>
+<image>
+<url>images/large/_7824967999.jpg</url>
+<caption></caption>
+</image>
+<image>
+<url>images/large/_7482704276.jpg</url>
+<caption></caption>
+</image>
+<image>
+<url>images/large/_9482220275.jpg</url>
+<caption></caption>
+</image>
+</gallery>

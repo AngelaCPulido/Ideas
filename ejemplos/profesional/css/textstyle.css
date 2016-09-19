@@ -1,0 +1,40 @@
+normal_text{
+	font-size:11px;
+}
+
+title_text_2{
+	color: #000000;
+	font-size:10px;
+	font-weight:bold;
+}
+
+title_text{
+	font-size:24px;
+	letter-spacing: 1px;
+	leading: 0px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+test_text{
+	font-size:15px;
+}
+
+medium_text {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+another_style{
+	color: #000000;
+	font-size:20px;
+}
+
+
+a {
+	color: #FFFFCC;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+

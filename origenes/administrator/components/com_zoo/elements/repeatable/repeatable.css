@@ -1,0 +1,76 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme License (http://www.yootheme.com/license) */
+
+/*
+ * repeatable
+ */
+
+div.repeat-elements { overflow: hidden; }
+
+div.repeat-elements ul.repeatable-list {
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+div.repeat-elements ul.repeatable-list li.repeatable-element.hidden { 
+	height: 0;
+	min-height: 0;
+	padding: 0;
+	width: 0;
+}
+
+div.repeat-elements li.repeatable-element {
+	padding: 10px 5px;
+	overflow: hidden;
+	border-bottom: 1px dotted #CCC;
+	min-height: 20px;
+}
+
+div.repeat-elements li.repeatable-element:hover { background: #F0F0F0; }
+
+div.repeat-elements li.repeatable-element div.repeatable-content {
+	margin: 0px 5px;
+	float: left;
+}
+
+div.repeat-elements div.add {
+	margin: 0px 0px 0px 10px;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	background: url(../../assets/images/add.png) 5px 4px no-repeat;
+	text-indent: 20px;
+	cursor: pointer;
+	float: left;
+}
+
+div.repeat-elements div.add:hover { background-color: #F0F0F0; }
+
+div.repeat-elements div.delete,
+div.repeat-elements div.sort { display: none; }
+
+div.repeat-elements li.repeatable-element:hover div.delete,
+div.repeat-elements li.repeatable-element:hover div.sort {
+	display: block;
+	float: left;
+	cursor: pointer;
+	height: 20px;
+	width: 20px;	
+}
+div.repeat-elements li.repeatable-element:hover div.sort { cursor: move; }
+
+div.repeat-elements li.repeatable-element:only-child div.sort { display: none; }
+
+div.repeat-elements li.repeatable-element:hover div.delete { background: url(../../assets/images/delete.png) 5px 4px no-repeat; }
+
+div.repeat-elements li.repeatable-element:hover div.sort { background: url(../../assets/images/sort.png) 5px 4px no-repeat; }
+
+div.repeat-elements li.dragging div.delete,
+div.repeat-elements li.repeatable-element:first-child div.delete { display: none; }
+
+div.repeat-elements li.repeatable-element.ghost { background: #F0F0F0; }
+
+div.repeat-elements li.repeatable-element.ghost:hover div.delete,
+div.repeat-elements li.repeatable-element.ghost:hover div.sort { display: none; }
+
+div.repeat-elements li.repeatable-element.ghost div.sort { background: url(../../assets/images/sort.png) 5px 4px no-repeat; }

@@ -1,0 +1,58 @@
+<data>
+	
+	<settings>
+	
+		<thumbWidth>250</thumbWidth>
+		<thumbHeight>250</thumbHeight>
+		<useStyleSheet>true</useStyleSheet>
+		<cssURL>css/textstyle.css</cssURL>
+		
+		<useNumbers>false</useNumbers>
+		<numberSize>128</numberSize>
+		<numberColor>#FFFFFF</numberColor>
+		<numberX>55</numberX>
+		<numberY>110</numberY>
+		
+		<videoVolume>100</videoVolume>
+		<videoBuffering>3</videoBuffering>
+	
+	</settings>
+	
+	<item>
+		<thumbURL>images/videos/thumbs/1.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN --><normal_text>GOLDEN EXPLOSION</normal_text><!-- END -->]]></thumbDescription>
+		<largeURL>images/videos/1.flv</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->GOLDEN EXPLOSION WEBSITE INTRO<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque dignissim mauris nec vehicula. Fusce velit sem, posuere quis cursus sed, adipiscing nec purus. Ut eu metus sapien, vitae consequat magna. Integer mauris odio, hendrerit at rutrum non, pharetra nec orci. Mauris volutpat odio sit amet velit tempor ut dapibus mauris euismod. Nullam magna augue, consectetur non tincidunt vel, euismod id est. Praesent quis dolor erat. Aliquam et risus eget massa posuere luctus eget vitae sapien.</normal_text><!-- END -->]]></largeDescription>
+		<videoImage>images/videos/snapshots/1.jpg</videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/videos/thumbs/2.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN --><normal_text>PHOENIX LOGO INTRO</normal_text><!-- END -->]]></thumbDescription>
+		<largeURL>images/videos/2.flv</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->PHOENIX LOGO INTRO FOR MEDIA AND AD<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Etiam mi dolor, aliquet ultrices vestibulum id, varius nec elit. Cras sit amet lacus non lectus fermentum vulputate vel vitae mauris. Donec ullamcorper pharetra enim, in consequat nulla mollis in. Maecenas ornare enim et erat consequat vestibulum. Nunc vitae nisl non eros ornare rutrum a eget eros. Pellentesque iaculis massa sed dui posuere malesuada. Suspendisse potenti. Nulla id nisl ac elit luctus fringilla a a quam. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage>images/videos/snapshots/2.jpg</videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/videos/thumbs/3.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN --><normal_text>ORBS AND STROKES</normal_text><!-- END -->]]></thumbDescription>
+		<largeURL>images/videos/3.flv</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->ORBS AND STROKES EFFECT FOR DOCUMENTARIES<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Nunc vitae risus eget dui lacinia blandit a ut nibh. Donec suscipit consectetur fermentum. Maecenas nec turpis libero, eu varius velit. Vivamus vel lobortis massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla metus ante, vulputate eget scelerisque id, auctor ultrices tellus. Nam malesuada, massa vel scelerisque vestibulum, lectus justo commodo est, eget mollis mauris lacus in augue. Duis consectetur faucibus eleifend. Maecenas sodales magna eu massa blandit in fermentum ligula eleifend. Aliquam condimentum mauris eu enim varius interdum. Proin ac tellus velit, vitae pharetra nisi.</normal_text><!-- END -->]]></largeDescription>
+		<videoImage>images/videos/snapshots/3.jpg</videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/videos/thumbs/4.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN --><normal_text>AUDIO REACTOR</normal_text><!-- END -->]]></thumbDescription>
+		<largeURL>images/videos/4.flv</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->AUDIO REACTOR EFFECT FOR COMMERCIALS<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>GPraesent semper posuere malesuada. Suspendisse potenti. Aenean sed nunc tellus. Vivamus viverra cursus quam, sed suscipit nibh fringilla nec. Nulla lacinia, odio vitae laoreet ultrices, justo libero adipiscing nulla, sed sollicitudin sapien nibh a est. Aenean tellus neque, dapibus non dictum eget, lobortis vitae sem. Maecenas orci neque, convallis a convallis et, vulputate sit amet justo. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage>images/videos/snapshots/4.jpg</videoImage>
+	</item>
+	
+
+</data>

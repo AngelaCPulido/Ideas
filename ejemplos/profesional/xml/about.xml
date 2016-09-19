@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<data>
+
+
+<!-- ********************* -->
+<!-- START TEXT FIELD DATA -->
+<!-- ********************* -->
+
+
+	
+	<settings>
+		
+		<!-- moduleAlign = choose to position the module.  Options are "left", "center" and "right" -->
+		<!-- textAndBannerWidth = the total width of the module/text area -->
+		<!-- bannerHeight = the total width of the banner if applicable -->
+		<!-- useBanner = decide to use a banner or not, "true" or "false" -->
+		<!-- bannerURL "type" = the type of module you want to load.  See options below -->
+		<!-- bannerUrl = the url of your banner (swf or image), only applicable if useBanner is set to "true" -->
+		<!-- bannerXml = the xml file of the kenBurns  -->
+		<!-- useStyleSheet = decide whether to use a style-sheet for your html text, "true" or "false" -->
+		<!-- styleSheetUrl = the url of your css style-sheet if "useStyleSheet" is set to true -->
+		<!-- textAlign = the default text alignment you wish to apply.  Options are listed below -->
+		
+		<!--
+		
+		"bannerType" options are:
+		
+		1) kenBurns
+		2) image
+		3) yourSwf
+		
+		-->
+		
+		<!--
+		
+		"textAlign" options are:
+		
+		1) left
+		2) right
+		3) center
+		4) justify
+		5) dynamic 
+		
+		"dynamic" will have right-aligned text on the right if a scrollbar is not needed, and be left-aligned if a scrollbar is needed
+		
+		-->
+		
+		
+		<textAndBannerWidth>533</textAndBannerWidth>
+		<bannerHeight>252</bannerHeight>
+		
+		<useBanner>true</useBanner>
+		<bannerType>kenBurns</bannerType>
+		<imageSwfURL>null</imageSwfURL>
+		
+		<useStyleSheet>true</useStyleSheet>
+		<styleSheetUrl>css/textstyle.css</styleSheetUrl>
+		
+		<textAlign>dynamic</textAlign>
+		
+	</settings>
+	
+	<!-- 
+	
+	text = your Flash compatible hmtl text.  Please visit the link below for what html attributes Flash allows:
+	http://livedocs.adobe.com/flash/9.0/ActionScriptLangRefV3/flash/text/TextField.html#htmlText
+	
+	-->
+
+	<text><![CDATA[<!-- BEGIN --><normal_text>Lorem ipsum dolor sit amet, <a href="http://www.activeden.net" target="_blank">click here</a> consectetur adipiscing elit. Vestibulum venenatis tincidunt libero sit amet ultricies. Suspendisse turpis augue, dapibus rhoncus faucibus id, volutpat sit amet nisl. Vestibulum consequat rutrum fringilla. Fusce ac justo at nibh pulvinar congue in id neque. Curabitur est risus, scelerisque nec blandit ac, ornare posuere velit. Nulla facilisi. Etiam volutpat feugiat neque et hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam varius convallis ante nec ultricies. Pellentesque id orci augue, scelerisque lacinia felis. Proin tristique lacinia enim in faucibus. Vestibulum consectetur, eros vel adipiscing vulputate, quam nulla luctus purus, eget consequat enim nisi ut turpis. Donec aliquet malesuada leo, sit amet tincidunt nisi volutpat in. Nam sit amet mauris odio. Etiam purus massa, blandit non pellentesque porttitor, molestie in enim. Sed varius vulputate odio, et porta leo condimentum at. Curabitur sodales augue eget elit mollis semper. Morbi condimentum lectus id erat commodo at rutrum tellus placerat.<br/><br/>Sed luctus mollis tempus. Sed quis urna in justo feugiat sollicitudin nec eu magna. Fusce rhoncus congue pretium. Quisque eu libero in sem dignissim placerat nec sit amet diam. Aenean lacinia dapibus porttitor. Donec risus justo, sollicitudin et cursus in, placerat id diam. Duis massa nunc, fringilla et faucibus quis, ultricies a massa. Curabitur arcu neque, luctus placerat mollis ut, tristique in felis. Proin fringilla aliquet arcu, nec convallis justo eleifend sit amet. Ut sodales mi a felis fermentum eget fringilla erat tristique. Curabitur mi nibh, vulputate quis viverra nec, consequat nec urna. Fusce dictum tortor non lacus luctus in varius arcu blandit. Donec eu pretium enim. Fusce laoreet ipsum ac diam placerat ut scelerisque tellus ultricies. Duis sit amet lacus purus. Donec ut erat est. Curabitur mollis blandit felis, vitae vestibulum erat hendrerit ac.<br/><br/>Vivamus blandit sagittis nulla, nec adipiscing eros egestas quis. Nullam vel porttitor nibh. Aliquam blandit ligula et orci bibendum blandit. Nunc in libero magna, cursus interdum lectus. Integer in nibh eget lectus ultricies feugiat ac dapibus eros. Nunc viverra congue eleifend. Vestibulum placerat rutrum ligula, at dapibus neque blandit nec. Phasellus vel ante id magna posuere rhoncus. Nulla blandit risus at leo auctor non blandit neque scelerisque. Phasellus semper adipiscing arcu sit amet accumsan. Duis lorem mi, varius quis congue ac, pharetra ac nibh. Etiam odio nibh, accumsan vitae venenatis eleifend, ullamcorper id ipsum. Nunc volutpat mattis porttitor. Duis ut euismod turpis. Suspendisse ullamcorper ante quis nisi mollis vestibulum. Morbi est diam, interdum eget egestas nec, volutpat a sem. Nullam quis metus vel lacus tempor congue. Quisque nec vulputate risus.<br/><br/>Phasellus leo enim, consequat id suscipit vel, egestas at quam. In hac habitasse platea dictumst. Pellentesque facilisis quam arcu, et elementum sapien. Duis ac massa at ligula vehicula volutpat eu vitae enim. Nulla sed eros varius sapien condimentum tincidunt. Fusce pretium tincidunt sapien et ornare. Nam erat orci, fermentum non fringilla quis, congue eu eros. Curabitur in nisl sit amet urna ullamcorper luctus. Donec et erat ut nunc ultrices aliquam at ac velit. Nullam tempus, augue eu laoreet laoreet, ante massa egestas ipsum, sit amet consectetur urna magna sed tortor. Pellentesque aliquam risus sed lorem pharetra adipiscing. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam mi sem, vulputate et congue sit amet, rutrum at elit. Mauris scelerisque libero sed odio ullamcorper facilisis.<br/><br/>Integer nisi magna, tincidunt ut feugiat vitae, interdum non purus. Praesent massa mi, dictum sed tincidunt sed, egestas fringilla orci. Duis vitae mattis quam. Nulla eu euismod mauris. Vivamus odio odio, adipiscing vitae posuere adipiscing, commodo eu velit. Vestibulum fermentum ultricies augue, ac mattis orci ornare quis. Vestibulum nisi massa, faucibus quis bibendum a, convallis eget lectus. Curabitur et erat orci. Fusce sollicitudin nulla sed nisi porta ultrices tristique velit auctor. Fusce tempor, arcu ac aliquet lobortis, lorem dolor luctus nulla, nec iaculis velit dolor et magna. Curabitur feugiat placerat posuere. Nunc ornare elit metus, sed lobortis enim. Morbi sed cursus lectus. Vestibulum pretium auctor lorem quis feugiat. Sed laoreet justo ut ipsum fringilla porta. Pellentesque a nisi augue.<br/><br/>Aliquam imperdiet nunc et felis dictum hendrerit. Vestibulum eleifend purus ac mi facilisis a fringilla enim pellentesque. Integer consectetur adipiscing ante, ac sodales nunc lacinia vel. Donec suscipit lacinia elementum. Vivamus id dui et est mattis ultricies ac et odio. In placerat scelerisque augue, sit amet adipiscing enim vestibulum id. Vestibulum diam ligula, imperdiet a dignissim eu, scelerisque ac mi. Donec suscipit sapien eu mauris dictum sit amet rutrum leo consectetur. Aenean adipiscing bibendum orci, blandit luctus mi accumsan sed. Duis magna mauris, semper id consequat ut, suscipit in massa. Vestibulum libero sapien, accumsan vitae pellentesque in, posuere a leo. Praesent a nulla at metus feugiat convallis. Vestibulum mollis purus facilisis lacus elementum pulvinar egestas velit interdum. Ut luctus est eget turpis hendrerit quis dapibus mi sollicitudin. Praesent lorem purus, volutpat quis ultricies eu, fringilla sed ipsum.<br/><br/>Suspendisse potenti. Etiam aliquet tortor turpis, vitae tincidunt magna. Nam at diam urna. Ut eros velit, gravida sit amet pretium et, faucibus id elit. Suspendisse at pellentesque massa. Donec tempor ultrices mauris. Praesent egestas neque vel felis mollis vel ullamcorper ante fringilla. Fusce laoreet justo quis magna egestas nec varius est ullamcorper. In elit urna, tristique sed commodo sagittis, tempor ut nisl. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur non augue nec ante cursus venenatis. Vivamus egestas feugiat magna a posuere. Vestibulum auctor, turpis vel laoreet sodales, est nisl ultricies elit, vel tristique neque dui ut sem. Phasellus dignissim dui et nisl tincidunt tristique. Nulla posuere euismod lorem a consequat. Vivamus diam neque, porttitor a varius ac, pulvinar a arcu. Suspendisse potenti. Morbi condimentum ultrices lectus in auctor. Curabitur est tortor, vestibulum et faucibus ac, porta quis mi. Etiam et enim at risus vestibulum tristique aliquet et libero.<br/><br/>Pellentesque interdum, velit ac lacinia laoreet, arcu nibh egestas nibh, et semper ante nunc eget metus. In rhoncus, elit semper semper elementum, quam nunc placerat eros, nec aliquam velit lacus vitae purus. Sed convallis vulputate sodales. Suspendisse ut dui nunc, ac luctus lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus viverra tortor at justo blandit interdum. Aenean id risus vel magna dapibus rhoncus. Donec pretium feugiat dapibus. Quisque eget sem nibh. Fusce ligula ipsum, pretium quis lacinia sodales, semper vitae dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi cursus eleifend orci sed tristique. Ut porta, lectus at dignissim imperdiet, erat erat aliquet urna, quis feugiat sem eros ac justo. Fusce sed pretium est. Vivamus id orci scelerisque quam suscipit consequat. Praesent nulla massa, pellentesque sed adipiscing eu, fringilla nec nulla. Suspendisse dapibus pellentesque dolor quis vulputate.</normal_text><!-- END -->]]></text>
+
+<!-- ******************* -->
+<!-- END TEXT FIELD DATA -->
+<!-- ******************* -->
+
+
+
+
+<!-- *************************** -->
+<!-- START KEN BURNS BANNER DATA -->
+<!-- *************************** -->
+
+<!-- ================================================================= -->
+<!-- THIS DATA CAN BE ERASED IF THE KEN BURNS MODULE IS NOT BEING USED -->
+<!-- ================================================================= -->
+
+
+	<!-- speed = the amount of seconds of each transition in seconds-->
+	<!-- borderSize = the size of the border in pixels (enter "0" here for no border) -->
+	<!-- borderColor = the color of the border in hexadecimal format -->
+	<!-- randomTransitions = randomizes start, end and in/out transition params, true/false -->
+	<!-- useOverlay = a blend filter that produces a "light flare" type transition, true/false -->
+	
+	<bannerSettings>
+		
+		<speed>10</speed>
+		<borderSize>2</borderSize>
+		<borderColor>#000000</borderColor>
+		<randomTransitions>false</randomTransitions>
+		<useOverlay>false</useOverlay>
+		
+	</bannerSettings>
+	
+	<!-- url = the url of your image -->
+	<!-- static = no transition, just a static image, true/false -->
+	<!-- start = the starting point of the Jen Burns transition -->
+	<!-- end = the ending point of the transition -->
+	<!-- direction = zoom in or zoom out -->
+	
+	<!-- accepted parameters for image "start" and "end" parameters:
+	
+	tl = top-left
+	tc = top-center
+	tr = top-right
+	lc = left-center
+	mc = middle-center
+	rc = right-center
+	bl = bottom-left
+	bc = bottom-center
+	br = bottom-right
+	
+	-->
+	
+	<!--
+	
+	accepted parameters for transition "direction":
+	
+	in = zoom-in
+	out = zoom-out
+	
+	-->
+	
+	<image>
+		<url>images/kenburns/img1.jpg</url>
+		<static>false</static>
+		<start>mc</start>
+		<end>bl</end>
+		<direction>in</direction>
+	</image>
+	
+	<image>
+		<url>images/kenburns/img2.jpg</url>
+		<static>false</static>
+		<start>mc</start>
+		<end>mc</end>
+		<direction>in</direction>
+	</image>
+	
+	<image>
+		<url>images/kenburns/img3.jpg</url>
+		<static>false</static>
+		<start>tr</start>
+		<end>br</end>
+		<direction>out</direction>
+	</image>
+	
+	
+<!-- ************************* -->	
+<!-- END KEN BURNS BANNER DATA -->
+<!-- ************************* -->	
+
+	
+</data>

@@ -1,0 +1,310 @@
+body {
+	background-attachment: fixed;
+	color:#363636;
+	background-color: #dcdcdb;
+	background-image: url(../images/bg3.jpg);
+	background-repeat: repeat;
+	background-position: 50% 0;
+}
+ul#menu, .flexslider, .section-container, .grid li, .panel-container, .news-list, .contact-container, #bottom, .title {
+	background-color: #fff;
+	-moz-box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+#header {
+	background: #dcdcdb url(../images/light/bg3.jpg) 50% 0 repeat;
+	background-attachment: fixed;
+}
+a {
+	color: #4a8b86;
+}
+.lite {
+	color: #4a8b86;
+	border-bottom: 1px dashed #4a8b86;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#000;
+}
+#logo h1 {
+	color:#282828;
+}
+#logo h1 a {
+	color:#282828;
+}
+ul.unordered li {
+	background-image: url(../images/light/bullet.png);
+}
+
+
+/* TABLES */
+/* ----------------------------------------- */
+
+table {
+	border-bottom:1px solid #8B8A88;
+	border-top:1px solid #8B8A88;
+}
+
+table td {
+	border-right:1px solid #8B8A88;
+}
+
+table td:hover {
+	background-color: #FFFFFF;
+}
+
+table th {
+	color:#000;
+	border-right:1px solid #8B8A88;
+}
+
+table tr {
+	border-left:1px solid #8B8A88;
+	border-top:1px solid #8B8A88;
+}
+
+table tr.caption {
+	border-left:1px solid #8B8A88;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	MENU
+/*-----------------------------------------------------------------------------------*/
+
+#menu
+{
+	position: fixed;
+	text-align: center;
+	width: 965px;
+	z-index:100;
+	float: none;
+	margin-left: 0px;
+	background-image: url(../images/menu-fondo.png);
+	background-repeat:  repeat-x;
+}
+#menu ul
+{
+text-align: center;
+}
+#menu ul li
+{
+	display: block;
+	float: left;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-left: 5px;
+}
+#menu ul li a
+{
+text-indent: -9999px;
+display: block;
+float: left;
+}
+#menu ul li.portafolio,#menu ul li.nosotros , #menu ul li.servicios,#menu ul li.ideasweb , #menu ul li.contact, #menu ul li.social
+{
+	margin-top: 24px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+#menu ul li.portafolio a
+{
+background: url('../images/menu.png') left top;
+height:19px;
+width: 100px;
+}
+#menu ul li.portafolio a:hover, #menu ul li.portafolio a.current
+{
+background: url('../images/menu.png') left bottom;
+}
+#menu ul li.nosotros a
+{
+	height:19px;
+	width: 88px;
+	background-image: url(../images/menu.png);
+	background-position: -106px top;
+}
+#menu ul li.nosotros a:hover, #menu ul li.nosotros a.current
+{
+	background-image: url(../images/menu.png);
+	background-position: -106px bottom;
+}
+#menu ul li.servicios a
+{
+    background: url("../images/menu.png") repeat scroll -195px top;
+    height: 19px;
+    width: 84px;
+}
+#menu ul li.servicios a:hover, #menu ul li.servicios a.current
+{
+background: url('../images/menu.png') -195px bottom;
+}
+#menu ul li.logo a
+{
+	background: url("../images/logo.png") no-repeat;
+	height: 163px;
+	width: 199px;
+}
+#menu ul li.ideasweb a
+{
+	height:19px;
+	width: 86px;
+	background-image: url(../images/menu.png);
+	background-position: -286px top;
+}
+#menu ul li.ideasweb a:hover, #menu ul li.ideasweb a.current
+{
+background: url('../images/menu.png') -286px bottom;
+}
+#menu ul li.contact a
+{
+   background: url("../images/menu.png") repeat scroll -379px top transparent;
+    height: 19px;
+    width: 114px;
+}
+#menu ul li.contact a:hover, #menu ul li.contact a.current
+{
+background: url('../images/menu.png') -379px bottom;
+}
+#menu ul li.social a
+{
+	background: url("../images/menu.png") repeat scroll -497px top transparent;
+	height: 19px;
+	width: 58px;
+}
+#menu ul li.social a:hover, #menu ul li.social a.current
+{
+background: url('../images/menu.png') -497px bottom;
+}
+#social-menu
+{
+	clear: both;
+	left: 600px;
+	position: relative;
+	top: -120px;
+	opacity: 0;
+}
+#social-menu a
+{
+position: relative;
+top: 0px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	SLIDER
+/*-----------------------------------------------------------------------------------*/
+
+.flexslider {
+	border: 20px solid #fff;
+}
+.flex-caption {
+	
+}
+/* Direction Nav */
+.flex-direction-nav li a {
+	background: transparent url(../images/slider-arrows.png) no-repeat 0 0;
+}
+.flex-control-nav li a {
+	background: transparent url(../images/slider-buttons.png) no-repeat 0 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SERVICE COLUMNS
+/*-----------------------------------------------------------------------------------*/
+
+#service-columns p {
+	color:#3a3a3a;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	ABOUT
+/*-----------------------------------------------------------------------------------*/
+
+.section-container ul li {
+	background-image: url(../images/light/bullet.png);
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	PORTFOLIO
+/*-----------------------------------------------------------------------------------*/
+
+.grid li {
+	border: 10px solid #FFF;
+}
+.gallerynav li {
+	color:#000;
+}
+.gallerynav li a {
+	color:#000;
+}
+.gallerynav li a:hover, .gallerynav li.active {
+	background-color: #33CCFF;
+}
+.caption {
+	background:#FFF;
+	color: #000;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	NEWS
+/*-----------------------------------------------------------------------------------*/
+
+.date {
+	color: #0e0e0e;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	CONTACT
+/*-----------------------------------------------------------------------------------*/
+
+.scrolltop {
+	background: transparent url(../images/top.png) no-repeat 0 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	FORMS
+/*-----------------------------------------------------------------------------------*/
+
+.forms fieldset .text-input {
+	background-color: #ededed;
+	color:#363636;
+}
+
+.forms fieldset .text-area {
+	background-color: #ededed;
+	color:#363636;
+}
+
+.forms fieldset .text-input:focus, .forms fieldset .text-area:focus {
+	background-color: #ededed;
+}
+
+.forms fieldset .btn-submit {
+	background-image:url(../images/light/button.png);
+	background-color: #fff;
+	color:#363636;
+}
+.forms fieldset .btn-submit:hover {
+	background-color: #e3e3e3;
+	color:#000;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	TWITTER
+/*-----------------------------------------------------------------------------------*/
+
+#twitter {
+	background-color: #ededed;
+}
+.twitter-wrapper .bird {
+	background: transparent url(../images/light/icon-bird.png) no-repeat;
+}
+.twitterStatus {
+	color: #5e5e5e;
+}
+.message a {
+	color: #000;
+}
+em.twitterTime a {
+	color:#000;
+}

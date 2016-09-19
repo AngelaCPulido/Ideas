@@ -1,0 +1,1119 @@
+/* ==================================================================== */
+/*                            Outer style                               */
+/* ==================================================================== */
+DIV.dmOuter
+{
+}
+
+.dmOuter A
+{
+}
+
+.dmOuter a + a
+{
+    margin-left: 8px;
+}
+
+#dm .dmBody > .dmWidget
+{
+    margin: 5px 20px;
+}
+#dm .allWrapper .dmWidget
+{
+    margin: 5px 20px;
+}
+
+
+#dm video
+{
+    max-width: 100% !important;
+}
+
+iframe.fb_ltr
+{
+    max-width: 100%;
+}
+
+.dmHome .text
+{
+    white-space: nowrap;
+}
+
+
+/* ==================================================================== */
+/*                            Inner style                               */
+/* ==================================================================== */
+DIV.dmInner
+{
+    background: rgb(248,248,247);
+    color: #333333;
+    font-family: arial;
+}
+
+DIV.dmInner A
+{
+    color: rgb(0,160,198);
+}
+/*.dmInner li
+{
+    list-style-type: none;
+}*/
+
+.dmwr .dmInner ul:not(.dmNav), .dmwr .dmInner ol:not(.dmNav)
+{
+   padding: 0px;
+}
+
+
+/* ======================================= */
+/*                                    Form style                                      */
+/* ======================================= */
+
+div.dmInner input[type=text], div.dmInner input[type=email], div.dmInner input[type=number], div.dmInner input[type=tel]
+{
+    border: 2px solid #7c7c7c;
+    border-radius: 4px 4px;
+    -webkit-border-radius: 4px 4px;
+    -moz-border-radius: 4px;
+    width: 100%;
+    height: 20px;
+    margin: 3px 0px;
+}
+
+div.dmInner input[type=password]
+{
+    border: 2px solid #7c7c7c;
+    border-radius: 4px 4px;
+    -webkit-border-radius: 4px 4px;
+    -moz-border-radius: 4px;
+    width: 100%;
+    height: 20px;
+    margin: 3px 0px;
+}
+
+div.dmInner input[readonly]
+{
+    border: 2px solid #7c7c7c;
+    border-radius: 4px 4px;
+    -webkit-border-radius: 4px 4px;
+    -moz-border-radius: 4px;
+    margin: 3px 0px;
+    width: auto;
+    height: auto;
+}
+
+div.dmInner select
+{
+    border: 2px solid #7c7c7c;
+    border-radius: 4px 4px;
+    -webkit-border-radius: 4px 4px;
+    -moz-border-radius: 4px;
+    width: 100%;
+    height: 24px;
+    margin: 3px 0px;
+}
+
+div.dmInner textarea
+{
+    border: 2px solid #7c7c7c;
+    width: 100%;
+    margin: 3px 0px;
+    min-height: 50px;
+    border-radius: 4px 4px;
+    -webkit-border-radius: 4px 4px;
+    -moz-border-radius: 4px;
+}
+
+div.dmInner input[type=submit], div.dmInner input[type=reset]
+{
+    margin: 5px auto;
+    width: 102%;
+    border: 1px solid #7c7c7c;
+    border-radius: 4px 4px;
+    -webkit-border-radius: 4px 4px;
+    -moz-border-radius: 4px;
+    font-weight: bold;
+    height: 25px;
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, rgb(222,233,242)), color-stop(0.5, rgb(166,189,207)));
+    background-image: -moz-linear-gradient( center top, rgb(222,233,242) 0%, rgb(166,189,207) 50%);
+}
+
+
+/* ==================================================================== */
+/*                            Header style                              */
+/* ==================================================================== */
+
+.dmHeader
+{
+    background: rgb(0,160,198);
+/*     border-bottom: 0px solid rgb(0,160,198); */
+    text-align: center;
+    color: #333333;
+    padding-top:1px;
+    background-color:rgb(0,160,198);
+}
+
+.dm-title
+{
+   
+	/* background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(67, 67, 67, 1.00)), to(rgba(29, 29, 29, 1.00)));
+	background-image: -webkit-linear-gradient(top, rgba(67, 67, 67, 1.00) 0% ,rgba(58, 58, 58, 1.00) 25% ,rgba(46, 46, 46, 1.00) 49% ,rgba(42, 42, 42, 1.00) 50% ,rgba(33, 33, 33, 1.00) 73% ,rgba(29, 29, 29, 1.00) 100% );
+	background-image: -moz-linear-gradient(top, rgba(67, 67, 67, 1.00) 0% ,rgba(58, 58, 58, 1.00) 25% ,rgba(46, 46, 46, 1.00) 49% ,rgba(42, 42, 42, 1.00) 50% ,rgba(33, 33, 33, 1.00) 73% ,rgba(29, 29, 29, 1.00) 100% );
+	background-image: -ms-linear-gradient(top, rgba(67, 67, 67, 1.00) 0% ,rgba(58, 58, 58, 1.00) 25% ,rgba(46, 46, 46, 1.00) 49% ,rgba(42, 42, 42, 1.00) 50% ,rgba(33, 33, 33, 1.00) 73% ,rgba(29, 29, 29, 1.00) 100% );
+	background-image: -o-linear-gradient(top, rgba(67, 67, 67, 1.00) 0% ,rgba(58, 58, 58, 1.00) 25% ,rgba(46, 46, 46, 1.00) 49% ,rgba(42, 42, 42, 1.00) 50% ,rgba(33, 33, 33, 1.00) 73% ,rgba(29, 29, 29, 1.00) 100% );
+	background-image: linear-gradient(top, rgba(67, 67, 67, 1.00) 0% ,rgba(58, 58, 58, 1.00) 25% ,rgba(46, 46, 46, 1.00) 49% ,rgba(42, 42, 42, 1.00) 50% ,rgba(33, 33, 33, 1.00) 73% ,rgba(29, 29, 29, 1.00) 100% ); */
+	
+	box-shadow: 0px 1px 3px rgba(12, 12, 12, 0.80);
+	-webkit-box-shadow: 0px 1px 3px rgba(12, 12, 12, 0.80);
+	-moz-box-shadow: 0px 1px 3px rgba(12,12,12,0.80);
+	font-family: Helvetica,Arial;
+	/*height: 44px;*/
+	text-align: center;
+	font-weight: bold;
+	font-size: 23px !important;
+	clear:both;
+	color: rgb(255,255,255);
+	
+	border-right-width: 0px;
+	border-right-style: solid;
+	border-right-color: rgba(0, 0, 0, 0.00);
+	border-left-width: 0px;
+	border-left-style: solid;
+	border-left-color: rgba(0, 0, 0, 0.00);
+	border-top-width: 0px;
+	border-top-style: solid;
+	border-top-color: rgba(0, 0, 0, 0.00);
+	margin-top:-1px;
+	line-height:44px;
+	
+}
+
+
+/* ==================================================================== */
+/*                            Footer style                              */
+/* ==================================================================== */
+
+DIV.dmFooter
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: inherit;
+    color: #333;
+    padding: 4px 8px;
+}
+
+/* ==================================================================== */
+/*                            Body style                                */
+/* ==================================================================== */
+
+DIV.dmBody
+{
+    padding: 0px;
+    clear:both;
+}
+
+/* ==================================================================== */
+/*                          Navigation style                            */
+/* ==================================================================== */
+
+.dmNav
+{
+    padding: 8px 20px 20px 20px;
+    margin: 0px;
+}
+
+.dmNav LI
+{
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    list-style-type: none;
+    padding-bottom: 8px;
+}
+
+.dmNav LI > A
+{
+    min-height: 20px;
+    display: block;
+    text-decoration: none;
+    color: #666666;
+    padding: 8px 15px 8px 15px;
+    text-align: center;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAABkElEQVR42mNgGLRg/34WhgXH+oB4P8OiY+60tWz+cQegRf+h+CzDpG3stLNswbFtSJb9Z5h/LIqWvvqDYtmCY+dp4zt0X9HMd4uO2WPxFQyfY1h1lY06Fq3azwM0cDsOi6D4aCI4pRIN5hwTYph3Qoth4VF/hgXHC4H0JKBB64D4Kn6LwPgzEB9hWHhsEZBuY1h4PIVh4RFHYDwrYPp6wbE4IH6KJ6jIxb+A+CDYfCTLTlPZEnR8GilZH6uloUXPgMFahZaPjpVS3aKFxx4wzD2sjysvlVDVooUn9AiUFFTx4UPCFqFa+ItMi24TbxEiSPeQZRnJxRcoIy44doY8nx0tJrEsPCIH1PiWzISxlMTq5IgFBYnjLInxBSxYybfsKcPsE+IkWHa8B08wrYWm1us4y8NFR0yIt2zh8a1YDAGlTme4miUn+CCWHn2EJUUGkBKMsxGajx8HYj/ciemoGFBdI1DPa6QUaUeCz45aAoNrL1DTfCBtSFD9zDOsDPOPxgIdtQ8YKrMY5h7hZRhRAAAmkSY2MloYSgAAAABJRU5ErkJggg==) no-repeat 7px 50% #c0c1c4;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAABkElEQVR42mNgGLRg/34WhgXH+oB4P8OiY+60tWz+cQegRf+h+CzDpG3stLNswbFtSJb9Z5h/LIqWvvqDYtmCY+dp4zt0X9HMd4uO2WPxFQyfY1h1lY06Fq3azwM0cDsOi6D4aCI4pRIN5hwTYph3Qoth4VF/hgXHC4H0JKBB64D4Kn6LwPgzEB9hWHhsEZBuY1h4PIVh4RFHYDwrYPp6wbE4IH6KJ6jIxb+A+CDYfCTLTlPZEnR8GilZH6uloUXPgMFahZaPjpVS3aKFxx4wzD2sjysvlVDVooUn9AiUFFTx4UPCFqFa+ItMi24TbxEiSPeQZRnJxRcoIy44doY8nx0tJrEsPCIH1PiWzISxlMTq5IgFBYnjLInxBSxYybfsKcPsE+IkWHa8B08wrYWm1us4y8NFR0yIt2zh8a1YDAGlTme4miUn+CCWHn2EJUUGkBKMsxGajx8HYj/ciemoGFBdI1DPa6QUaUeCz45aAoNrL1DTfCBtSFD9zDOsDPOPxgIdtQ8YKrMY5h7hZRhRAAAmkSY2MloYSgAAAABJRU5ErkJggg==) no-repeat 7px 50%, url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/arrow_white.png) no-repeat right 50%, url(http://dudamobile-themes.s3.amazonaws.com/otf_theme/white_40pct.png) repeat-x 0px 0px, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAABCAYAAABUvRdkAAAAD0lEQVR42mNgWHDs/2DBAN90U9C/6v7rAAAAAElFTkSuQmCC) repeat-y 100% 0px #d0d0d0;
+    font-size: 18px;
+    font-family: arial;
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    box-shadow: black 0.1em 0.1em 0.2em;
+    -moz-box-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+}
+
+.dmNav LI > A > div
+{
+    max-width: 200px;
+    margin: 0px auto;
+}
+
+
+*.dmNav LI > A.dmUDNavigationItem_dmLess
+{
+    dmthemerule: true;
+    iconname: url('less.css');
+    originalurl: url('dmLess');
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAACD0lEQVR42mNgGNlg5hl+hgXH/YC4h2HBsd0M848dANIHgXg7ELcxLDjqxrDoIjdllkzaxs6w8FgO0MBbQPwfD/4HxBcZ5h+NZWj4z0S6RQuOKkNd/58kPP/YBob5pySIt2jhMUOgxockW4TAlxkWnVQkbNHsE+JAxdeIMPALEL/BI3+EcDwuOLaQCIv+AnEcw5yj8kD6PG51RzvxxZMdNLLxW7bwWD5Y/apVzED+Hry+X3RcE0s8nVQDGrKIsK+OtsBT6oJjq4lwWBemZfOPZxBMFPOPT0VKRIuITCznGFbt50ELwuOLCWhayPD/PyM0XieTkDK/Msw9rI+eMPbj0bCNYf5+DkgIHJtAet477kCsZX+AFuhCgu6EHpD/jYyM7kG8zxYeW8Wwfz8LVN0cavhsGYFUOA2sDlT2LTg+jwTLvoNLJDTLsoH4MVHJGJS/Fh5bS5RlC49fYFhygg/VsnkntICl9goiwr8CrB5UFEGqGEIW9mMvQeafcCVC8z+ghUkQ9cAUuuDYIbxBiJHsUUv8VURY+AsY6UHAUkcYaPEJ3EF4dBL+gnjJCRmgwntEWPgBiJ/ikT+DGVdYC+Tj1kDFLymoz+6A0wDRAJSRFxw7S7JFC4/tBQaxAulNA3CKO1pDILhg+C64vTLzDCtlDZ9lZ0SA+SUcXOqDauAFx04C8SloK6sf3PIiKn6GKwAAeSPejSPrv94AAAAASUVORK5CYII=) no-repeat 7px 50%, url(http://dudamobile-themes.s3.amazonaws.com/otf_theme/white_40pct.png) repeat-x 0px 0px #d0d0d0;
+    font-weight: bold;
+}
+
+*.dmNav LI > A.dmUDNavigationItem_dmMore
+{
+    dmthemerule: true;
+    iconname: url('more.css');
+    originalurl: url('dmMore');
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAACEElEQVR42mNgGLlg0UVuhgVH3RgWHGsD4u1AfJBh/rEDQHo3w4LjPUDsxzDzDD9lljT8Z2KYfzQWaOhFIP4HxP/x4FsMC4/lMEzaxk66RfNPSQBdv4GABdjwQWAoKJMQbCcVgZouk2ERDD8E+tKQyPg5dgSPQW+A+AsRFl5jmH1CHL9lC4524jHgPMOco/JAOg6I/xJh4UI8vjquScDVexhWrWIGq114LJ8Iy4CJ6qgddssWHusiwoDV8BS34GgLQfULjy1iWHhSDdWiVft5gJLniEoAIAPgqfb4VIKJZf7xDFTL5h7WB0p8JSHFTQbr+/+fERw3eNUeX4yWr447kJzE5x+bANG7nwPI34ZH7X40y455kJGfvjEsPKEH1a8L5P8h0jIyfLbg2Byw3v37WYDxuIp4n4Fy/IJj34m36Pg8cNkJSZXTCKhfhmrZkhN8DAuPXyAyNa5Fym+EsstjIM7GUnoc6yfCsu3gIg0STxWEE9HRFQzzTmhhWgZJ/viC8hA45UEsSiKi2gFadsIVd5G18OgkPEn9BLA0EAYmpiAg/xcRwb0Kf0EMirsFx87gMeQpEH8gIrjvAc2SIVzNgMJ4wbE7FNRnL4Gp1ZqEmvq4AjAY9pJh0VlwBicZzDzDCm5XLDh2lwhLgMF7tAaeUskG4HgEtqBAWQPSqjoFxCfBNTqo1F94PJxh2RkRhhENAPZl3o3tVIqrAAAAAElFTkSuQmCC) no-repeat 7px 50%, url(http://dudamobile-themes.s3.amazonaws.com/otf_theme/white_40pct.png) repeat-x 0px 0px #d0d0d0;
+    font-weight: bold;
+}
+
+li.dmBackToMenuLi
+{
+    padding-bottom: 20px;
+}
+
+
+/* ==================================================================== */
+/*                          Content style                               */
+/* ==================================================================== */
+
+.dmContent
+{
+    margin: 0px;
+    padding: 0px 20px 10px 20px;
+}
+
+/* .dmContent li, .dm_content li
+{
+    list-style-type: none;
+}
+*/
+.dmContent ul, .dmContent ol, .dm_content ul, .dm_content ol
+{
+    -webkit-padding-start: 0px;
+    -moz-padding-start: 0px;
+    list-style-position: inside;
+} 
+
+.dm_content
+{
+    margin: 0px;
+    padding: 0px 20px 10px 20px;
+}
+
+
+/* ==================================================================== */
+/*                          Back To Home button style                   */
+/* ==================================================================== */
+
+ A.dmHome
+{
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAABOElEQVR42mNgGAUwMP+IBcOCYycZFh6NgYstPB4OFGtjWHisnWH+sVAqWXQ8CGjoeyD+D8TfgfwEsPiC4/ugYv+Blu2g3KKFR8uBhv2DGwrHR/OA9DYksZ0U+GY/B9DA2ZiWwPEPIP5MuWULj0mjBBFxeDsZPjpqCtR4i0SLQHF2gDSLFhwNBmr8QLJFCAsnMKxaxUyEj45VYE8IJOKFx9YyzDzDj92SSdvYgRbNoNgSFHz8ODB7KKAna38yEgKx+CE4fyLF0RIaWQTDKxGWzTusRISFR4ApNAJIJ8Px/GNRwLiZS0DfFaDZyph5av6xDUDJ/dg1HZ2PPS8ej8dhyUVwnpt/3AFfakyikmULicljiaOWjVo2Ei1beNwTqPAMNHPD8GlwswAbWHTMHYv6U0BcOdo6pAkAAOXLELQ0sZQxAAAAAElFTkSuQmCC') no-repeat 50% 50% #d0d0d0;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAABOElEQVR42mNgGAUwMP+IBcOCYycZFh6NgYstPB4OFGtjWHisnWH+sVAqWXQ8CGjoeyD+D8TfgfwEsPiC4/ugYv+Blu2g3KKFR8uBhv2DGwrHR/OA9DYksZ0U+GY/B9DA2ZiWwPEPIP5MuWULj0mjBBFxeDsZPjpqCtR4i0SLQHF2gDSLFhwNBmr8QLJFCAsnMKxaxUyEj45VYE8IJOKFx9YyzDzDj92SSdvYgRbNoNgSFHz8ODB7KKAna38yEgKx+CE4fyLF0RIaWQTDKxGWzTusRISFR4ApNAJIJ8Px/GNRwLiZS0DfFaDZyph5av6xDUDJ/dg1HZ2PPS8ej8dhyUVwnpt/3AFfakyikmULicljiaOWjVo2Ei1beNwTqPAMNHPD8GlwswAbWHTMHYv6U0BcOdo6pAkAAOXLELQ0sZQxAAAAAElFTkSuQmCC') no-repeat 50% 50%, url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/bg_home.png) repeat #d0d0d0;
+    height: 38px;
+    width: 52px;
+    display: block;
+    text-decoration: none;
+    margin: 10px 0px 10px -1px;
+    text-decoration: none;
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-border-top-right-radius: 4px 4px;
+    -webkit-border-bottom-right-radius: 4px 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px 4px;
+    border-bottom-right-radius: 4px 4px;
+}
+
+#dm A.dmHome .text
+{
+    display: none;
+}
+
+/* new home button */
+
+a.dmHome.dmWwr.default 
+{
+ 	background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/bg_home.png) repeat;
+    height: 38px;
+    width: 52px;
+    display: block;
+    text-decoration: none;
+    margin: 10px 0px 10px -21px;
+    -webkit-border-top-right-radius: 4px 4px;
+    -webkit-border-bottom-right-radius: 4px 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-top-right-radius: 4px 4px;
+    border-bottom-right-radius: 4px 4px;
+}
+#dm a.dmHome.dmWwr
+{
+	background-color:#d0d0d0;
+	-webkit-box-shadow: black 0.1em 0.1em 0.2em;
+	-moz-box-shadow: black 0.1em 0.1em 0.2em;
+	box-shadow: black 0.1em 0.1em 0.2em;
+}
+#dm a.dmHome.dmWwr.default .iconBg
+{
+    height: auto;
+    width: auto;
+    display: block;
+    background: none;
+}
+#dm a.dmHome.dmWwr.default .icon
+{
+    height: 38px;
+    width: 52px;
+    display: block;
+}
+#dm a.dmHome.dmWwr .icon
+{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAABOElEQVR42mNgGAUwMP+IBcOCYycZFh6NgYstPB4OFGtjWHisnWH+sVAqWXQ8CGjoeyD+D8TfgfwEsPiC4/ugYv+Blu2g3KKFR8uBhv2DGwrHR/OA9DYksZ0U+GY/B9DA2ZiWwPEPIP5MuWULj0mjBBFxeDsZPjpqCtR4i0SLQHF2gDSLFhwNBmr8QLJFCAsnMKxaxUyEj45VYE8IJOKFx9YyzDzDj92SSdvYgRbNoNgSFHz8ODB7KKAna38yEgKx+CE4fyLF0RIaWQTDKxGWzTusRISFR4ApNAJIJ8Px/GNRwLiZS0DfFaDZyph5av6xDUDJ/dg1HZ2PPS8ej8dhyUVwnpt/3AFfakyikmULicljiaOWjVo2Ei1beNwTqPAMNHPD8GlwswAbWHTMHYv6U0BcOdo6pAkAAOXLELQ0sZQxAAAAAElFTkSuQmCC) no-repeat 50%;
+}
+#dm a.dmHome.dmWwr.default .text
+{
+	display:none;
+}
+
+
+/* ==================================================================== */
+/*                          Click To call button style                  */
+/* ==================================================================== */
+#dm A.dmCall
+{
+    margin: 5px 0px;
+    padding: 6px 5px 7px 34px;
+    text-align: center;
+    min-height: 20px;
+    display: block;
+    clear: both;
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/phone.png) no-repeat 7px 50% rgb(0,160,198);
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/phone.png) no-repeat 7px 50%, url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/bg_nav.png) repeat-x 0px -1px rgb(0,160,198);
+    text-decoration: none;
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-border-top-left-radius: 6px 6px;
+    -webkit-border-top-right-radius: 6px 6px;
+    -webkit-border-bottom-left-radius: 6px 6px;
+    -webkit-border-bottom-right-radius: 6px 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+}
+
+
+#dm .dmCall span.text
+{
+    color: #fff;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: arial;
+    text-decoration: none;
+    text-transform: none;
+}
+
+#dm .dmCall .icon
+{
+}
+
+#dm .dmCall.dmWwr .icon
+{
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/phone.png) no-repeat 50%;
+}
+
+
+/* ==================================================================== */
+/*                          Click to Map button style                   */
+/* ==================================================================== */
+#dm A.dmMap
+{
+    margin: 5px 0px;
+    padding: 6px 5px 7px 34px;
+    text-align: center;
+    min-height: 20px;
+    display: block;
+    clear: both;
+    text-decoration: none;
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/location.png) no-repeat 7px 50% rgb(0,160,198);
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/location.png) no-repeat 7px 50%, url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/bg_nav.png) repeat-x 0px -1px rgb(0,160,198);
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-border-top-left-radius: 6px 6px;
+    -webkit-border-top-right-radius: 6px 6px;
+    -webkit-border-bottom-left-radius: 6px 6px;
+    -webkit-border-bottom-right-radius: 6px 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+}
+
+#dm .dmMap span.text
+{
+    color: #fff;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+#dm .dmMap .icon
+{
+}
+
+#dm .dmMap.dmWwr .icon
+{
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/location.png) no-repeat 50%;
+}
+
+/* ==================================================================== */
+/*                          Click to SMS button style                   */
+/* ==================================================================== */
+
+#dm A.dmSms
+{
+    margin: 5px 0px;
+    padding: 6px 5px 7px 34px;
+    text-align: center;
+    min-height: 20px;
+    display: block;
+    clear: both;
+    font-weight: normal;
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/sms.png) no-repeat 7px 50% rgb(0,160,198);
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/sms.png) no-repeat 7px 50%, url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/bg_nav.png) repeat-x 0px -1px rgb(0,160,198);
+    text-decoration: none;
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-border-top-left-radius: 6px 6px;
+    -webkit-border-top-right-radius: 6px 6px;
+    -webkit-border-bottom-left-radius: 6px 6px;
+    -webkit-border-bottom-right-radius: 6px 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+}
+
+#dm .dmSms span.text
+{
+    color: #fff;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+#dm .dmSms .icon
+{
+}
+
+#dm .dmSms.dmWwr .icon
+{
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/sms.png) no-repeat 50%;
+}
+
+/* ==================================================================== */
+/*                          Click to Appointment button style           */
+/* ==================================================================== */
+#dm A.dmAppoint
+{
+    margin: 5px 0px;
+    padding: 6px 5px 7px 34px;
+    text-align: center;
+    min-height: 20px;
+    display: block;
+    clear: both;
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/schedule.png) no-repeat 7px 50% rgb(0,160,198);
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/schedule.png) no-repeat 7px 50%, url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/bg_nav.png) repeat-x 0px -1px rgb(0,160,198);
+    text-decoration: none;
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-border-top-left-radius: 6px 6px;
+    -webkit-border-top-right-radius: 6px 6px;
+    -webkit-border-bottom-left-radius: 6px 6px;
+    -webkit-border-bottom-right-radius: 6px 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+}
+
+#dm .dmAppoint span.text
+{
+    color: #fff;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+#dm .dmAppoint .icon
+{
+}
+
+#dm .dmAppoint.dmWwr .icon
+{
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/schedule.png) no-repeat 50%;
+}
+
+/* ==================================================================== */
+/*                          Click to Email button style                 */
+/* ==================================================================== */
+
+#dm A.dmEmail
+{
+    margin: 5px 0px;
+    padding: 6px 5px 7px 34px;
+    text-align: center;
+    min-height: 20px;
+    display: block;
+    clear: both;
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/email.png) no-repeat 7px 50% rgb(0,160,198);
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/email.png) no-repeat 7px 50%, url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/bg_nav.png) repeat-x 0px -1px rgb(0,160,198);
+    text-decoration: none;
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-border-top-left-radius: 6px 6px;
+    -webkit-border-top-right-radius: 6px 6px;
+    -webkit-border-bottom-left-radius: 6px 6px;
+    -webkit-border-bottom-right-radius: 6px 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+}
+
+#dm .dmEmail span.text
+{
+    color: #fff;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+#dm .dmEmail .icon
+{
+}
+
+#dm .dmEmail.dmWwr .icon
+{
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/email.png) no-repeat 50%;
+}
+
+/* ==================================================================== */
+/*                          Share Widget style                          */
+/* ==================================================================== */
+
+
+#dm .dmShareLarge
+{
+    margin: 10px 20px;
+    text-decoration: none;
+    padding: 5px 5px 1px 8px;
+    min-height: 20px;
+    display: block;
+    clear: both;
+    background: #d0d0d0;
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    height: 29px;
+    color: #666;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    text-align: center;
+    -webkit-border-top-left-radius: 6px 6px;
+    -webkit-border-top-right-radius: 6px 6px;
+    -webkit-border-bottom-left-radius: 6px 6px;
+    -webkit-border-bottom-right-radius: 6px 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+}
+
+#dm .dmShare
+{
+    margin: 5px 0px;
+    padding: 6px 5px 7px 34px;
+    text-align: center;
+    min-height: 20px;
+    display: block;
+    clear: both;
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/share.png) no-repeat 7px 50% rgb(0,160,198);
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/share.png) no-repeat 7px 50%, url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/bg_nav.png) repeat-x 0px -1px rgb(0,160,198);
+    text-decoration: none;
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-border-top-left-radius: 6px 6px;
+    -webkit-border-top-right-radius: 6px 6px;
+    -webkit-border-bottom-left-radius: 6px 6px;
+    -webkit-border-bottom-right-radius: 6px 6px;
+    -moz-border-radius-topleft: 6px;
+    -moz-border-radius-topright: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    -moz-border-radius-bottomright: 6px;
+}
+
+#dm .dmShareLarge span.text, #dm .dmShareSmall span.text
+{
+    vertical-align: 5px;
+    margin-right: 3px;
+    color: #666;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    display: none;
+}
+
+#dm .dmShare span.text
+{
+    color: #fff;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+#dm .dmShareLarge .shareIcons, #dm .dmShareSmall .shareIcons
+{
+    height: 24px;
+    margin-right: 3px;
+    display: inline-block;
+    vertical-align: -2px;
+}
+
+#dm .dmShareLarge span.fbIcon, #dm .dmShareSmall span.fbIcon
+{
+    width: 27px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAABE0lEQVR42mNgGAU0AQuOzQHi/UC8m0K8n2HhsS78li089gCo8D9V8MJjRwn57CrVLAP5kALLPgDxcyB+T0vLfjIsOF7NsPCkGsOSEzIM848HAcX+0May+ccqUNUc0aaVZU8Zlp0RAcvNPMMK5CcDfbkYSP+lhWWnGfbvZwHLzTtuRKsE8g+aELbBLVt0zJ5hwdHX0IRCVcs+Msw/Ysuw6KgYw///jGC5+fs5GOadkgXmn0Bqx9l7YKpTwKpm0XFzalsGMuwiMNhmw4Nx/lFTYOI4DhS/Bg1mqieQc3DLFhx1o3UJcgxh2THnUctGLbtHvdR49DABy44vByo8C8QnofQc1HwGFj8FpfFhkN7Jo+2soQ0Av9JXeEg7uLkAAAAASUVORK5CYII=');
+}
+
+#dm .dmShareLarge span.twitIcon, #dm .dmShareSmall span.twitIcon
+{
+    width: 25px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAABv0lEQVR42mNgGAUjCyw46sYw/9gGhgXH9gPpHQzzj+cyLDwpTH2LZp7hZ1hwfDnQor9A/B+KLzHMP5pKXYsa/jMBDV6GZAk6bqSeZQuPBWJacPQmUDwHSD8C8n8zLDpiQpqhq66yMSw5IcMwaRs7XOz/f0Zg/BzAsGz+0V6IQ45OgoodZJh3WIl4y+YfsQBqaoPEzdFpDKtWMTMsOmYPFPuDYdnCYzeAjkgCsq8iiX8Eih8Fipfit2juEV5gylJjmL9fgGHOMSGgiy2hcbUfT1yh48/guJ1/3AG7JUtO8AEV1EFd+AWI7wDxdKDvooH0auItOrqRYf4JVUKRb0aCy3HhpwxLDwsSG1deUB+Ra9km0lLivEOiQF92ATV+ItmyhceL8PjkmAY4iWMDi04qAsN/NgmW/QCbh8eyAqCi8+DkveCoHUr5BkqRpCSMhcfWgvMi3sy78GgMkqa7QEt3QTPvVxJ89QecwIgrxY+HATW8JD9hHG0hLWGA4mjhsUUk+ggUfHPBIUReYXtCD+jTaqBrD4PzDbYiasGxf0B8EagmkTp11vwjtpAEBE6Ru6HFFRQfnQ+uAcj20SgYBUgAAPrORkyW/Sk0AAAAAElFTkSuQmCC');
+}
+
+#dm .dmShareLarge span.mailIcon, #dm .dmShareSmall span.mailIcon
+{
+    width: 27px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAB7UlEQVR42u2VPyzDQRTHX0IYJBYRJBYWg8RgMkhEIrHZRGJiICYDo0mICIuQMIhefz+damIgQlSrvftVIjTRxED9WRqRKOJf/avX+73UT7XV9meR9JJvfnfvru9zd33vHUCu/c9m9YyClT+jPlBPqBDqxoTuydcL+l4GJvoMMB5ARVBjoIgD6puQ5wq/w6hzOWZ82wg7Rb2D1V0LircE+15TIFVrBIcjH8eHZHcaYcdkDAJzN8D0aiH217KABWDBXSM3zLhmsDsSwaK6A6to0+1iMQPQPlhcpaB6qwwn+hUWVRjVS3OTaYA2wKYVg0XU4zVeJJhPCSOJITmviIEUoCWw2/NAcTdTFEeyhMlImpJrGO/UQ/nb/BzNtdNtRMzB9AizyXUqb8XxbSxN9Bztp5yK/BFMah1UX5EMa+bpoQAaSTN4foW9oS7jdr0Hi64KOtFs3PogVaEsYEyMU775v9kVfoTfzbj1dxiNlbIsZQxTuEr/URPVuXQqRzedeDAT2Ioe7lod1bh0kzqMKdKh/5ZPpIKdUF5tgd1fAJad6lgRzUwPCGwhnzNJYDLrr4HtlsO8VoZ9n4mqH5LXrwMdZHN9wRR+hoZHWaKiFdrsExP1x0SXYdPO+MczTHoy+XCG5HXqvl5/Pp65lmtJ2idGX9n4N1DFcAAAAABJRU5ErkJggg==');
+}
+
+#dm .fblikeiframe
+{
+    top: 0px;
+}
+
+
+#dm .dmShare.dmWwr .icon
+{
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/share.png) no-repeat 50%;
+}
+
+/* ==================================================================== */
+/*                          Widget style                  */
+/* ==================================================================== */
+
+#dm .dmWidget
+{
+    text-decoration: none;
+    margin: 10px 0px;
+    padding: 6px 5px 7px 34px;
+    text-align: center;
+    min-height: 20px;
+    display: block;
+    clear: both;
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    -moz-box-shadow: black 0.1em 0.1em 0.2em;
+    box-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#dm .dmWidget .text
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: normal;
+}
+
+/* new widgets style*/
+
+#dm .dmWidget.dmWwr.default
+{
+    display: block;
+    width: auto;
+    line-height: normal;
+    height: auto;
+/*     background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/bg_nav.png) repeat-x 0px -1px; */
+
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjU1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjQiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.25) 51%, rgba(255,255,255,0) 100%);
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.55)), color-stop(50%,rgba(255,255,255,0.4)), color-stop(51%,rgba(255,255,255,0.25)), color-stop(100%,rgba(255,255,255,0)));
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+  
+    text-decoration: none;
+    margin: 10px 0px;
+    padding: 0px;
+    text-align: left;
+    min-height: 0px;
+    clear: both;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    position: relative;
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    -moz-box-shadow: black 0.1em 0.1em 0.2em;
+    box-shadow: black 0.1em 0.1em 0.2em;
+    min-height: 35px;
+    min-width:40px;
+    overflow:hidden;
+}
+#dm .dmOuter .dmWidget.dmWwr
+{
+    background-color: rgb(0,160,198);
+    
+}
+#dm .dmWidget.dmWwr.default .iconBg, #dm .dmWidget.dmWwr.default > span
+{
+    display: block;
+    float: left;
+    width: 40px;
+    height: auto;
+}
+#dm .dmWidget.dmWwr.default .icon
+{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+}
+/* for user icon */
+#dm .dmWidget.dmWwr.default.dmUserImg .icon
+{
+     background-size: 27px;
+}
+
+#dm .dmWidget.dmWwr.default .text
+{
+    display: block;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: normal;
+    text-align: center;
+    padding: 7px 5px 6px 40px;
+    float: none;
+    width: auto;
+}
+#dm .dmWidget.dmWwr .text
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*
+#dm .dmBody > .dmWidget.dmWwr.default, #dm .dmHeader > .dmWidget.dmWwr.default, #dm .dmFooter > .dmWidget.dmWwr.default, #dm .allWrapper > .dmWidget.dmWwr.default
+{
+    margin: 10px 20px;
+}
+*/
+#dm.dmwr .dmBody > .dmWidget.dmWwr
+{
+	margin:10px 20px;
+}
+#dm.dmwr .allWrapper > .dmWidget.dmWwr
+{
+	margin:10px 20px;
+}
+#dm .dmHeader .dmWidget.dmWwr
+{
+	margin:10px 20px;
+}
+#dm .dmFooter .dmWidget.dmWwr
+{
+	margin:10px 12px;
+}
+
+/* ==================================================================== */
+/*                         Button Widget style                          */
+/* ==================================================================== */
+
+#dm .dmButtonLink
+{
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/general_icon.png) no-repeat 7px 50% rgb(0,160,198);
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/general_icon.png) no-repeat 7px 50%, url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/bg_nav.png) repeat-x 0px -1px rgb(0,160,198);
+}
+#dm .dmButtonLink.dmWwr .icon
+{
+    background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/general_icon.png) no-repeat 50%;
+}
+
+/* ==================================================================== */
+/*                         Sms Info Widget style                          */
+/* ==================================================================== */
+
+#dm .dmSmsInfo.dmWwr .icon
+{
+   background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/sms.png) no-repeat 50%;
+}
+
+
+/* ==================================================================== */
+/*                         Open Table Widget style                          */
+/* ==================================================================== */
+
+#dm .dmopentable.dmWwr .icon
+{
+   background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/icons/white/schedule.png) no-repeat 50%;
+}
+
+
+
+
+#dm .dmContent .dmWidget
+{
+    margin: 10px 0px;
+}
+
+
+#dm .dmHeader .dmWidget
+{
+    margin: 10px 20px;
+}
+
+#dm .dmFooter .dmWidget
+{
+    margin: 10px 20px;
+}
+
+
+
+
+/* ==================================================================== */
+/*                      New Navigation style                            */
+/* ==================================================================== */
+
+.navPlaceHolder .dmNav.default
+{
+    padding: 10px 0px;
+    margin: 0px;
+    shapename: fullNav;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.navPlaceHolder .dmNav.default LI
+{
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    list-style-type: none;
+    padding-bottom: 8px;
+}
+.navPlaceHolder .dmNav.default LI > A
+{
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    display: table;
+    table-layout: fixed;
+    background-image: none;
+    
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjU1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjQiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.25) 51%, rgba(255,255,255,0) 100%);
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.55)), color-stop(50%,rgba(255,255,255,0.4)), color-stop(51%,rgba(255,255,255,0.25)), color-stop(100%,rgba(255,255,255,0)));
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+    
+	background-position: top;
+    background-repeat: repeat-x;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    overflow: hidden;
+    width: 100%;
+}
+.dmOuter .navPlaceHolder .dmNav LI > A
+{
+    background-color: #d0d0d0;
+    -webkit-box-shadow: black 0.1em 0.1em 0.2em;
+    box-shadow: black 0.1em 0.1em 0.2em;
+    -moz-box-shadow: black 0.1em 0.1em 0.2em;
+    color: #666666;
+
+}
+.navPlaceHolder .dmNav LI > A > div
+{
+    max-width: 100%;
+}
+.navPlaceHolder .dmNav.default .navIconBg
+{
+    display: table-cell;
+    width: 40px;
+    vertical-align: middle;
+}
+.navPlaceHolder .dmNav .navIcon
+{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAABkElEQVR42mNgGLRg/34WhgXH+oB4P8OiY+60tWz+cQegRf+h+CzDpG3stLNswbFtSJb9Z5h/LIqWvvqDYtmCY+dp4zt0X9HMd4uO2WPxFQyfY1h1lY06Fq3azwM0cDsOi6D4aCI4pRIN5hwTYph3Qoth4VF/hgXHC4H0JKBB64D4Kn6LwPgzEB9hWHhsEZBuY1h4PIVh4RFHYDwrYPp6wbE4IH6KJ6jIxb+A+CDYfCTLTlPZEnR8GilZH6uloUXPgMFahZaPjpVS3aKFxx4wzD2sjysvlVDVooUn9AiUFFTx4UPCFqFa+ItMi24TbxEiSPeQZRnJxRcoIy44doY8nx0tJrEsPCIH1PiWzISxlMTq5IgFBYnjLInxBSxYybfsKcPsE+IkWHa8B08wrYWm1us4y8NFR0yIt2zh8a1YDAGlTme4miUn+CCWHn2EJUUGkBKMsxGajx8HYj/ciemoGFBdI1DPa6QUaUeCz45aAoNrL1DTfCBtSFD9zDOsDPOPxgIdtQ8YKrMY5h7hZRhRAAAmkSY2MloYSgAAAABJRU5ErkJggg==) no-repeat 50%;
+
+}
+
+.navPlaceHolder .dmNav.default .navIcon
+{
+    width: 40px;
+    height: 38px;
+    display:block;
+}
+/* for user icon */
+.navPlaceHolder .dmNav.default a.dmUserImg .navIcon
+{
+     background-size: 27px;
+}
+.navPlaceHolder .dmNav.default .navText
+{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 8px 5px 8px 0;
+}
+
+.navPlaceHolder .dmNav.default .navArrowBg
+{
+    display: table-cell;
+    width: 35px;
+    
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjU1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjQiLz4KICAgIDxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.25) 51%, rgba(255,255,255,0) 100%);
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.55)), color-stop(50%,rgba(255,255,255,0.4)), color-stop(51%,rgba(255,255,255,0.25)), color-stop(100%,rgba(255,255,255,0)));
+	background: -o-linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+	background: linear-gradient(top,  rgba(255,255,255,0.55) 0%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.25) 51%,rgba(255,255,255,0) 100%);
+
+    background-repeat: repeat-x;
+    background-position: top;
+    vertical-align: middle;
+}
+@-moz-document url-prefix(){
+	.navPlaceHolder .dmNav.default .navArrowBg
+	{
+		position:relative;
+	}
+}
+.dmOuter .navPlaceHolder .dmNav .navArrowBg	
+{
+    background-color: rgb(0,160,198);
+}
+
+.navPlaceHolder .dmNav.default .navArrow
+{
+	background: url(http://dudamobile-themes.s3.amazonaws.com/direct/two-tone/arrow_white.png) no-repeat 50%;
+    width: 35px;
+    height: 38px;
+    display:block;
+}
+.navPlaceHolder .dmNav.default .dmUDNavigationItem_dmLess .navText, .navPlaceHolder .dmNav.default .dmUDNavigationItem_dmMore .navText
+{
+    padding: 8px 30px 8px 0;
+}
+.navPlaceHolder .dmNav .dmUDNavigationItem_dmLess .navArrowBg, .navPlaceHolder .dmNav .dmUDNavigationItem_dmMore .navArrowBg
+{
+    display: none;
+}
+.navPlaceHolder .dmNav .dmUDNavigationItem_dmLess .navIcon
+{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAACD0lEQVR42mNgGNlg5hl+hgXH/YC4h2HBsd0M848dANIHgXg7ELcxLDjqxrDoIjdllkzaxs6w8FgO0MBbQPwfD/4HxBcZ5h+NZWj4z0S6RQuOKkNd/58kPP/YBob5pySIt2jhMUOgxockW4TAlxkWnVQkbNHsE+JAxdeIMPALEL/BI3+EcDwuOLaQCIv+AnEcw5yj8kD6PG51RzvxxZMdNLLxW7bwWD5Y/apVzED+Hry+X3RcE0s8nVQDGrKIsK+OtsBT6oJjq4lwWBemZfOPZxBMFPOPT0VKRIuITCznGFbt50ELwuOLCWhayPD/PyM0XieTkDK/Msw9rI+eMPbj0bCNYf5+DkgIHJtAet477kCsZX+AFuhCgu6EHpD/jYyM7kG8zxYeW8Wwfz8LVN0cavhsGYFUOA2sDlT2LTg+jwTLvoNLJDTLsoH4MVHJGJS/Fh5bS5RlC49fYFhygg/VsnkntICl9goiwr8CrB5UFEGqGEIW9mMvQeafcCVC8z+ghUkQ9cAUuuDYIbxBiJHsUUv8VURY+AsY6UHAUkcYaPEJ3EF4dBL+gnjJCRmgwntEWPgBiJ/ikT+DGVdYC+Tj1kDFLymoz+6A0wDRAJSRFxw7S7JFC4/tBQaxAulNA3CKO1pDILhg+C64vTLzDCtlDZ9lZ0SA+SUcXOqDauAFx04C8SloK6sf3PIiKn6GKwAAeSPejSPrv94AAAAASUVORK5CYII=) no-repeat 50%;
+}
+.navPlaceHolder .dmNav .dmUDNavigationItem_dmMore .navIcon
+{
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAACEElEQVR42mNgGLlg0UVuhgVH3RgWHGsD4u1AfJBh/rEDQHo3w4LjPUDsxzDzDD9lljT8Z2KYfzQWaOhFIP4HxP/x4FsMC4/lMEzaxk66RfNPSQBdv4GABdjwQWAoKJMQbCcVgZouk2ERDD8E+tKQyPg5dgSPQW+A+AsRFl5jmH1CHL9lC4524jHgPMOco/JAOg6I/xJh4UI8vjquScDVexhWrWIGq114LJ8Iy4CJ6qgddssWHusiwoDV8BS34GgLQfULjy1iWHhSDdWiVft5gJLniEoAIAPgqfb4VIKJZf7xDFTL5h7WB0p8JSHFTQbr+/+fERw3eNUeX4yWr447kJzE5x+bANG7nwPI34ZH7X40y455kJGfvjEsPKEH1a8L5P8h0jIyfLbg2Byw3v37WYDxuIp4n4Fy/IJj34m36Pg8cNkJSZXTCKhfhmrZkhN8DAuPXyAyNa5Fym+EsstjIM7GUnoc6yfCsu3gIg0STxWEE9HRFQzzTmhhWgZJ/viC8hA45UEsSiKi2gFadsIVd5G18OgkPEn9BLA0EAYmpiAg/xcRwb0Kf0EMirsFx87gMeQpEH8gIrjvAc2SIVzNgMJ4wbE7FNRnL4Gp1ZqEmvq4AjAY9pJh0VlwBicZzDzDCm5XLDh2lwhLgMF7tAaeUskG4HgEtqBAWQPSqjoFxCfBNTqo1F94PJxh2RkRhhENAPZl3o3tVIqrAAAAAElFTkSuQmCC) no-repeat 50%;
+}
+
+
+
+
+.dmwr .allWrapper > *:not(.dmContent) 
+{
+	margin-left:20px;
+	margin-right:20px;
+}
+.dmwr .dmBody > *:not(.allWrapper) 
+{
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.navPlaceHolder .dmNav.bordersNav, .navPlaceHolder .dmNav.horizontalNav
+{
+	margin-left:-20px;
+	margin-right:-20px;	
+}
+
+
+/*  for no-margin element  */
+
+ .dmNoMargin 
+{
+    margin-left:-20px !important;
+    margin-right:-20px !important;
+}
+.dmHeader .dmNoMargin
+{
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+ .dmFooter .dmNoMargin
+{
+    margin-left:-8px !important;
+    margin-right:-8px !important;
+}
+.dmwr  .dmBody > .dmNoMargin
+{
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+.dmwr .dmNewParagraph .dmNoMargin 
+{
+    margin-left:-28px !important;
+    margin-right:-28px !important;
+}
+.dmwr .dmHeader .dmNewParagraph .dmNoMargin
+{
+    margin-left:-8px !important;
+    margin-right:-8px !important;
+}
+.dmwr .dmFooter .dmNewParagraph .dmNoMargin
+{
+    margin-left:-16px !important;
+    margin-right:-16px !important;
+}
+.dmwr .allWrapper > .dmNoMargin:not(.dmContent) 
+{
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+

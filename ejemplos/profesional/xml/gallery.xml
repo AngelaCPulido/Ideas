@@ -1,0 +1,66 @@
+<data>
+	
+	<settings>
+	
+		<thumbWidth>251</thumbWidth>
+		<thumbHeight>368</thumbHeight>
+		<useStyleSheet>true</useStyleSheet>
+		<cssURL>css/textstyle.css</cssURL>
+		
+		<useNumbers>true</useNumbers>
+		<numberSize>128</numberSize>
+		<numberColor>#FFFFFF</numberColor>
+		<numberX>55</numberX>
+		<numberY>110</numberY>
+		
+		<videoVolume>100</videoVolume>
+		<videoBuffering>3</videoBuffering>
+	
+	</settings>
+	
+	<item>
+		<thumbURL>images/gallery/1.jpg</thumbURL>
+		<thumbDescription></thumbDescription>
+		<largeURL>images/gallery/big1.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->This is the large title<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN -->This is the large description This is the large description This is the large description This is the large description This is the large description<!-- END -->]]></largeDescription>
+		<videoImage>images/video/snapshot.jpg</videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/2.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN -->This is the thimb description<!-- END -->]]></thumbDescription>
+		<largeURL>images/gallery/big2.jpg</largeURL>
+		<largeTitle></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN -->This is the large description This is the large description This is the large description This is the large description This is the large description<!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/3.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN -->This is the thimb description<!-- END -->]]></thumbDescription>
+		<largeURL>images/gallery/big3.jpg</largeURL>
+		<largeTitle></largeTitle>
+		<largeDescription></largeDescription>
+		<videoImage>images/video/snapshot.jpg</videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/4.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN -->This is the thimb description<!-- END -->]]></thumbDescription>
+		<largeURL>images/gallery/big4.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->This is the large title<!-- END -->]]></largeTitle>
+		<largeDescription></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/5.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN -->This is the thimb description<!-- END -->]]></thumbDescription>
+		<largeURL>images/gallery/big5.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->This is the large title<!-- END -->]]></largeTitle>
+		<largeDescription></largeDescription>
+		<videoImage></videoImage>
+	</item>
+
+</data>

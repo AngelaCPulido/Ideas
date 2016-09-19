@@ -1,0 +1,259 @@
+<data>
+	
+	<settings>
+	    
+		<!-- the width of each large image -->
+		<largeWidth>500</largeWidth>
+		
+		<!-- the height of each large image -->
+		<largeHeight>300</largeHeight>
+		
+		<!-- use a stylesheet for text, true/false -->
+		<useStyleSheet>true</useStyleSheet>
+		
+		<!-- the url mto your style-sheet -->
+		<styleSheetUrl>css/textstyle.css</styleSheetUrl>
+		
+		<!-- the initial volume of the video when played -->
+		<videoVolume>100</videoVolume>
+		
+		<!-- video buffering in seconds -->
+		<videoBuffering>3</videoBuffering>
+	
+	</settings>
+	
+	
+	<!-- EACH CATEGORY HAS ONE TITLE AND ONE DESCRIPTION -->
+	
+	<!-- thumbWidth = the category's thumbnail width -->
+	<!-- thumbHeight = the category's thumbnail height -->
+	<category thumbWidth="110" thumbHeight="170">
+		
+		<!-- title = the title for your category, HTML permitted -->
+		<title><![CDATA[<!-- BEGIN -->KARINA<!-- END -->]]></title>
+		
+		<!-- description = the description text for the category, HTML permitted -->
+		<description><![CDATA[<!-- BEGIN --><normal_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="http://www.activeden.net" target="_blank">Donec tempus</a> sapien condimentum libero sodales suscipit. Fusce ut risus purus, id rhoncus metus. Donec congue neque nulla, ac consectetur ante. Sed nisi ipsum, luctus et convallis quis, porta nec sem. Sed eget sollicitudin metus. Sed erat orci, varius eget aliquam ac, iaculis eget mi. Nullam id interdum ipsum. Morbi aliquet, purus vel dictum tincidunt, velit nibh scelerisque felis, non pharetra leo lorem nec nisi. Nam eleifend metus at dolor molestie semper. Nulla vitae ante purus. Nulla libero odio, ultrices nec mollis posuere, pretium et erat. Proin vestibulum metus ut neque faucibus tristique. Aliquam erat volutpat. Nam non euismod quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;<br /><br /><a href="http://www.activeden.net" target="_blank">Duis vitae augue</a> elit. Vivamus vitae lacus nunc. Aenean eu nisi vel lorem tempus interdum eget eu dui. Suspendisse mollis dictum adipiscing. Vivamus pharetra aliquet laoreet. Nulla facilisi. Aliquam euismod lectus sodales libero fringilla dignissim. Pellentesque nec lacus at turpis eleifend viverra. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc orci diam, euismod sit amet tempus eget, scelerisque cursus urna. Etiam ultrices dictum feugiat. Etiam varius luctus felis ac tincidunt. Nulla placerat posuere leo, ut bibendum arcu dapibus eget. Aenean ut fermentum lorem. Mauris eget nisl a purus scelerisque pulvinar sed at ligula.<br /><br />Vestibulum sed ornare sapien. Nunc ipsum velit, laoreet quis aliquet id, tempor et orci. Donec turpis nisl, tempor nec luctus et, mattis at quam. Curabitur dapibus porttitor enim in facilisis. Donec elit purus, consequat eu ullamcorper feugiat, molestie in tellus. Duis pellentesque ullamcorper commodo. Mauris vel quam vitae metus ornare pellentesque. Vivamus laoreet porttitor urna id accumsan. Etiam vel sem neque, vel euismod lorem. Nulla in lobortis lorem. Quisque pharetra ipsum non turpis faucibus sit amet auctor dui vehicula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</normal_text><!-- END -->]]></description>
+		
+		<!-- THE FIRES ITEM IN EACH CATEGORY WILL BE USED AS THE INITIAL CATEGORY PREVIEWS -->
+		
+		<item>
+		    
+			<!-- the url to the thumbnail -->
+			<thumbnail>images/portfolio/karina/thumbs/1.jpg</thumbnail>
+			
+			<!-- the url to the large photo -->
+			<large>images/portfolio/karina/1.jpg</large>
+			
+			<!-- IF YOU CHOOSE TO DISPLAY A VIDEO, ADD THE NODES BELOW TO YOUR ITEM.  OTHERWISE THESE NODES ARE NOT NECESSARY -->
+			<!-- IF A VIDEO IS USED, THE LARGE PHOTO IMAGE ABOVE WILL SERVE AS THE VIDEO PREVIEW IMAGE -- >
+			
+			<!-- the url to the video file if you want to use a video -->
+			<!--<video></video>-->
+			
+			<!-- if a video is used, you can autoStart the video here, true/false -->
+			<!--<autoStartVideo>false</autoStartVideo>-->
+		
+		</item>
+		
+		<item>
+		
+			<thumbnail>images/portfolio/karina/thumbs/2.jpg</thumbnail>
+			<large>images/portfolio/karina/2.jpg</large>
+		
+		</item>
+		
+		<item>
+		
+			<thumbnail>images/portfolio/karina/thumbs/3.jpg</thumbnail>
+			<large>images/portfolio/karina/3.jpg</large>
+		
+		</item>
+
+		
+	</category>
+	
+	
+	
+	
+	
+	
+	
+	<category thumbWidth="150" thumbHeight="100">
+		
+		<title><![CDATA[<!-- BEGIN -->KUNI RUNNING AD CAMPAIGN<!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Vestibulum sed ornare sapien. <a href="http://www.activeden.net" target="_blank">Nunc ipsum velit</a>, laoreet quis aliquet id, tempor et orci. Donec turpis nisl, tempor nec luctus et, mattis at quam. Curabitur dapibus porttitor enim in facilisis. Donec elit purus, consequat eu ullamcorper feugiat, molestie in tellus. Duis pellentesque ullamcorper commodo. Mauris vel quam vitae metus ornare pellentesque. Vivamus laoreet porttitor urna id accumsan. Etiam vel sem neque, vel euismod lorem. Nulla in lobortis lorem. Quisque pharetra ipsum non turpis faucibus sit amet auctor dui vehicula. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Proin dignissim auctor quam vel imperdiet. Praesent at nibh nibh, sed sodales tortor. Aenean tempus ipsum eget sapien tempus pulvinar. Praesent ut posuere erat. Etiam sit amet justo mauris. Vivamus dui mauris, tempus a facilisis non, scelerisque at urna. Donec non sapien eu quam vehicula mollis nec id elit. Suspendisse est nunc, volutpat placerat sagittis quis, luctus nec lectus. Pellentesque lorem erat, aliquet mattis pretium ut, commodo sit amet neque. Phasellus congue ultrices pretium. Vivamus sodales urna ullamcorper arcu faucibus rutrum. Integer mattis, libero ac egestas varius, turpis ante pretium erat, ut egestas sapien risus ac massa. Proin consectetur enim at odio dictum sit amet pulvinar leo bibendum. Phasellus et nunc magna, eu ornare erat.<br /><br />Nulla in nulla purus, a accumsan lectus. Etiam non mi semper felis viverra lacinia. Nunc eu lorem nec quam fringilla mattis quis vel ligula. In ut diam libero, sit amet dapibus velit. Quisque blandit leo eu eros mollis venenatis consequat ipsum rutrum. Sed tincidunt posuere ligula sed porta. Cras ultrices laoreet lacinia. Nullam rutrum neque in leo laoreet eleifend. Aliquam erat volutpat. Quisque a eros et lectus blandit placerat. Cras non leo vitae leo cursus bibendum non sed purus.<br /><br />Morbi et cursus sem. Aliquam erat volutpat. Suspendisse elementum dapibus massa et consequat. Suspendisse sed massa eget neque dapibus lobortis vitae ut est. Maecenas lacus magna, sodales nec interdum malesuada, dapibus et massa. Nullam sed sapien quis velit sodales ultricies. In metus sem, semper ultrices pretium eget, tempus sit amet nisi. Vestibulum ut nisl dui. Donec a sem semper metus facilisis vulputate ut eget diam. Mauris hendrerit placerat urna sed ullamcorper. Curabitur sodales, ante vitae ultricies dignissim, felis metus dapibus nisi, vitae semper purus ante sit amet felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus lobortis dictum nisl. Integer vestibulum odio ac nibh vulputate mattis a vitae neque. Nulla dictum dui sed sapien bibendum ac tempus libero adipiscing. Nulla consequat consequat lorem, sed venenatis quam vehicula eu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla lectus enim, fermentum ut ornare ut, sollicitudin id nisl. Vestibulum non mi et lorem egestas aliquam nec sed mi. Nulla dapibus ipsum id felis condimentum vulputate.
+Vivamus mattis congue justo at condimentum. Integer quam orci, laoreet quis tincidunt ut, rhoncus quis mauris. Mauris in lorem eget risus aliquet hendrerit. Nullam blandit porta arcu vel viverra. Nullam semper ipsum a tortor sollicitudin quis pulvinar dui lacinia. Donec in pulvinar nulla. Nullam metus lectus, tincidunt sed tempor in, tristique non sapien. Curabitur magna dolor, volutpat faucibus tristique non, molestie ut ligula. Curabitur tristique eros nulla. Sed imperdiet aliquam aliquet. Suspendisse vitae urna auctor urna rhoncus scelerisque. Praesent tincidunt eleifend bibendum.<br /><br />Aliquam tristique, turpis et consequat semper, metus turpis fringilla eros, quis ornare metus augue eget enim. Integer non cursus nunc. Proin risus mauris, hendrerit posuere mattis vitae, hendrerit vel nibh. Aliquam a libero magna. Etiam nec turpis eget velit iaculis congue. Nunc commodo urna a sem faucibus tempor. Phasellus molestie, turpis at laoreet luctus, justo urna tristique felis, eget scelerisque ligula ligula vel orci. Fusce porttitor sollicitudin magna et lacinia. Phasellus commodo lectus id ligula venenatis posuere. Maecenas ut lacus a lectus convallis mattis sit amet et purus.
+Quisque sodales placerat sollicitudin. Praesent laoreet gravida turpis eu sollicitudin. Nunc accumsan, nisi vitae placerat sagittis, orci magna ultrices arcu, et semper felis augue eu eros. Morbi vehicula euismod viverra. Proin fringilla turpis vel tellus placerat rhoncus. Fusce condimentum magna sit amet ligula viverra fermentum. Duis mattis, sapien ac malesuada laoreet, turpis lectus cursus erat, molestie dignissim arcu enim molestie ante. Nulla facilisi. Fusce odio ante, sagittis facilisis mattis vitae, rutrum a lectus. Etiam est odio, placerat vitae accumsan in, rutrum vel diam. Ut hendrerit mollis dignissim. Sed id velit orci. Mauris vestibulum molestie adipiscing. Maecenas porta, lacus non vestibulum imperdiet, nisl mi sollicitudin dui, eu imperdiet sem ipsum faucibus quam. Nulla facilisi. Maecenas ultricies vestibulum mollis. Suspendisse tellus turpis, placerat ut dignissim at, mattis in neque. Cras sit amet ligula ipsum. Donec at vulputate enim.
+Morbi odio lorem, elementum ac auctor eu, viverra id dui. Duis tortor felis, bibendum ac malesuada in, vestibulum quis neque. Praesent nibh magna, volutpat nec imperdiet et, convallis at sapien. Phasellus blandit diam quis velit faucibus sodales. Nam leo erat, varius a faucibus sed, convallis nec mi. In nisl neque, luctus ac fringilla sed, interdum a libero. Curabitur semper arcu consectetur velit tincidunt consectetur at eu elit. Duis iaculis lacus non metus dictum dapibus. Proin porttitor lectus vitae quam tempus rhoncus. In rutrum dictum tempor.</normal_text><!-- END -->]]></description>
+		
+		<item>
+		
+			<thumbnail>images/portfolio/kuni_wear/thumbs/1.jpg</thumbnail>
+			<large>images/portfolio/kuni_wear/1.jpg</large>
+			
+		
+		</item>
+		
+		<item>
+		
+			<thumbnail>images/portfolio/kuni_wear/thumbs/2.jpg</thumbnail>
+			<large>images/portfolio/kuni_wear/2.jpg</large>
+
+		
+		</item>
+		
+		<item>
+		
+			<thumbnail>images/portfolio/kuni_wear/thumbs/3.jpg</thumbnail>
+			<large>images/portfolio/kuni_wear/3.jpg</large>
+		
+		</item>
+		
+	</category>
+	
+	
+	
+	
+			<category thumbWidth="110" thumbHeight="170">
+		
+		<title><![CDATA[<!-- BEGIN -->MIXED MEDIA EXAMPLE<!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Maecenas vel tellus ligula, sed molestie sem. Etiam sit amet tortor risus. Vivamus luctus nulla a ante tincidunt gravida. Integer pharetra dapibus lorem non imperdiet. Nam at ullamcorper velit. Maecenas turpis risus, elementum nec volutpat vel, blandit sit amet turpis. Fusce consequat auctor mi et consequat. <a href="http://www.activeden.net" target="_blank">Donec blandit</a> quam nec felis hendrerit sodales. Nulla et quam ligula. Vestibulum hendrerit odio nibh. Vivamus at laoreet arcu. Duis vel quam urna. Suspendisse condimentum elit eget ante venenatis condimentum. Nunc ac diam quis augue egestas faucibus. In hac habitasse platea dictumst. Duis elit augue, tristique in molestie in, fringilla vel augue.<br /><br />Sed cursus, quam ultrices pharetra dapibus, metus enim consequat sapien, suscipit interdum risus sem eget massa. Etiam laoreet porttitor erat, sit amet congue leo volutpat ac. Quisque et nibh quis libero gravida consectetur non ut turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam dapibus semper erat, nec ullamcorper purus tristique sed. Fusce ac eros mauris. Donec vulputate pellentesque aliquam. Donec sed orci a nisi placerat sodales auctor vel arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque libero mauris, consequat id lobortis ac, pellentesque a ipsum. Cras nisi nisl, tincidunt eu blandit at, mattis vel turpis. Vestibulum ac magna justo. Suspendisse tincidunt congue sem a iaculis.<br /><br />Curabitur in enim dolor. Sed varius, massa id tincidunt pharetra, augue lorem cursus tortor, eu placerat dui massa vel nisi. Integer at est ut quam tristique suscipit. Etiam interdum, nibh sed tincidunt mollis, enim nulla tincidunt purus, vel luctus erat risus eget urna. Aenean vitae nisl sit amet libero euismod posuere in a metus. Nullam eros risus, consectetur ut pulvinar et, suscipit at felis. Aenean iaculis varius molestie. Nam sollicitudin imperdiet sagittis. Morbi quam elit, varius eget sagittis nec, molestie at magna. Etiam consectetur, quam a dignissim dictum, dui erat viverra velit, id dictum tellus est ultrices justo. </normal_text><!-- END -->]]></description>
+		
+		
+		<item>
+		
+			<thumbnail>images/portfolio/mixed/thumbs/11.jpg</thumbnail>
+			<large>images/portfolio/mixed/snapshots/11.jpg</large>
+			
+			<video>images/portfolio/mixed/11.flv</video>
+			<autoStartVideo>false</autoStartVideo>
+		
+		</item>
+		
+		
+		<item>
+		
+			<thumbnail>images/portfolio/mixed/thumbs/1.jpg</thumbnail>
+			<large>images/portfolio/mixed/portswf.swf</large>
+		
+		</item>
+		
+
+	
+	</category>
+	
+	
+	
+	
+	
+	<category thumbWidth="110" thumbHeight="170">
+		
+		<title><![CDATA[<!-- BEGIN -->HOT ROAD SHOWROOM WEB PORTAL<!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Donec vulputate enim laoreet dolor lobortis tincidunt. Curabitur pharetra, leo vestibulum laoreet varius, erat dolor interdum mi, tristique dapibus dolor sem at tellus. Praesent ut metus lacus. Sed condimentum accumsan quam, sed semper felis fermentum ut. <a href="http://www.activeden.net" target="_blank">Phasellus tempor</a> egestas venenatis. In est nunc, pretium et ornare eget, placerat ut ante. Curabitur ut molestie mi. Mauris consequat suscipit orci, imperdiet mollis diam ornare at. Duis eget odio mi, eget vulputate nulla. Sed tempus risus ac eros egestas nec pharetra arcu scelerisque.<br /><br />Vestibulum sit amet nisl vel arcu aliquam faucibus. Aenean neque diam, varius a congue id, euismod quis ante. Sed scelerisque scelerisque faucibus. Nullam consequat imperdiet diam eget adipiscing. Pellentesque in purus enim. Praesent sollicitudin blandit sem, ut egestas eros euismod vitae. Duis blandit, nibh non pulvinar venenatis, erat est ultrices tellus, eget molestie lectus turpis ac tellus. Curabitur pretium ornare libero, vitae sagittis velit varius vitae. Integer quis dolor tempus enim sollicitudin lobortis et sollicitudin odio. Proin id quam lacus, quis hendrerit velit. Sed posuere nulla at mi laoreet et scelerisque libero lacinia. Donec at ligula suscipit elit pellentesque volutpat. Duis at mauris diam, tincidunt sodales nibh. Maecenas egestas porta eros aliquet laoreet. Sed sollicitudin purus et metus commodo malesuada. Morbi facilisis aliquam nisl, vel suscipit ligula sollicitudin vel. Suspendisse potenti. Duis ut dignissim arcu.<br /><br />Maecenas vel tellus ligula, sed molestie sem. Etiam sit amet tortor risus. Vivamus luctus nulla a ante tincidunt gravida. Integer pharetra dapibus lorem non imperdiet. Nam at ullamcorper velit. Maecenas turpis risus, elementum nec volutpat vel, blandit sit amet turpis. Fusce consequat auctor mi et consequat. Donec blandit quam nec felis hendrerit sodales. Nulla et quam ligula. Vestibulum hendrerit odio nibh. Vivamus at laoreet arcu. Duis vel quam urna. Suspendisse condimentum elit eget ante venenatis condimentum. Nunc ac diam quis augue egestas faucibus. In hac habitasse platea dictumst. Duis elit augue, tristique in molestie in, fringilla vel augue.</normal_text><!-- END -->]]></description>
+		
+				<item>
+		
+			<thumbnail>images/portfolio/hot_road/thumbs/1.jpg</thumbnail>
+			<large>images/portfolio/hot_road/1.jpg</large>
+			
+		
+		</item>
+		
+		<item>
+		
+			<thumbnail>images/portfolio/hot_road/thumbs/2.jpg</thumbnail>
+			<large>images/portfolio/hot_road/2.jpg</large>
+		
+		</item>
+		
+		<item>
+		
+			<thumbnail>images/portfolio/hot_road/thumbs/3.jpg</thumbnail>
+			<large>images/portfolio/hot_road/3.jpg</large>
+
+		
+		</item>
+		
+	</category>
+	
+	
+	
+	
+	
+	
+	
+	<category thumbWidth="150" thumbHeight="100">
+		
+		<title><![CDATA[<!-- BEGIN -->METRO SPORTS SOCCER AD CAMPAIGN<!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Maecenas lectus quam, auctor nec accumsan at, auctor tristique turpis. Maecenas vestibulum, nunc in congue lobortis, tortor risus porttitor lorem, venenatis porta felis mi ut lacus. Mauris convallis egestas enim non congue. Fusce sapien massa, commodo ac posuere et, fermentum vel diam. Vestibulum mollis tristique tellus ultricies pulvinar. In accumsan felis eget tellus pulvinar convallis. Cras suscipit velit a lacus rutrum condimentum. Curabitur commodo ultrices libero, ac condimentum nibh sollicitudin et. Aliquam sapien nulla, vestibulum sed imperdiet vitae, laoreet sit amet nulla. Aliquam erat volutpat. Ut faucibus, quam vitae mattis lobortis, arcu purus tempus nisl, a vehicula urna libero at risus. Fusce fermentum pharetra nisi, sed placerat diam luctus at.<br /><br />Curabitur aliquam, magna sit amet vulputate placerat, nisl justo posuere velit, non feugiat augue eros a lacus. Cras posuere lorem eu lorem blandit convallis. Vestibulum sagittis feugiat enim vitae interdum. In accumsan imperdiet pellentesque. <a href="http://www.activeden.net" target="_blank">Fusce sit amet</a> mollis dolor. Donec scelerisque sollicitudin metus, sed pharetra purus aliquam sit amet. Pellentesque eu ipsum ut urna consequat dapibus. Morbi posuere nibh at libero blandit posuere. Maecenas vitae justo turpis, sed pellentesque elit. Integer adipiscing posuere mi ultrices adipiscing. Maecenas id magna a lacus sollicitudin laoreet a sed sapien. Sed posuere convallis condimentum. Mauris lorem ipsum, gravida in molestie non, volutpat a est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi vel urna ac lectus fringilla aliquam in porta dolor. Aenean ante justo, semper sollicitudin porta et, mattis non neque.<br /><br />Sed faucibus sagittis nibh ut ultricies. Suspendisse turpis dolor, sagittis et dictum in, aliquet eget felis. Vestibulum ac arcu in mi bibendum convallis id sit amet neque. Duis rhoncus vulputate orci at facilisis. Ut rutrum posuere purus eget fringilla. Mauris non est id lacus interdum ultrices aliquam a metus. Praesent ante lacus, gravida eget rhoncus et, scelerisque ultricies ante. Cras eget dapibus mauris. Cras ultrices magna quis nisi mollis eu facilisis leo pharetra. Nullam non felis pellentesque risus venenatis dapibus. In condimentum ullamcorper libero fermentum luctus. Sed ut mauris nec libero fermentum ultrices id non magna. Pellentesque elementum suscipit rhoncus. Phasellus auctor tempor diam, eget vulputate enim dapibus porta. Sed quis porta neque. Sed hendrerit dignissim enim.<br /><br />Fusce tincidunt, risus lacinia vehicula blandit, nulla turpis malesuada justo, in congue diam felis at risus. Cras sodales nibh ante, at bibendum risus. Curabitur gravida risus eget magna porta vel molestie tellus elementum. In hac habitasse platea dictumst. Donec tincidunt justo a lectus viverra pharetra. Quisque pharetra euismod enim, vel pharetra odio venenatis eu. Mauris interdum dui sed mauris placerat id molestie tortor ultrices. Nullam porta suscipit enim eu scelerisque. Nulla sagittis pharetra massa, quis venenatis felis egestas sed. Fusce vehicula dignissim laoreet. Mauris facilisis felis quis erat molestie congue viverra dolor porttitor. Sed blandit dignissim leo sit amet venenatis. Donec suscipit purus vel dolor consequat feugiat. Phasellus id ipsum in orci dignissim pretium nec a ante. Nam eget gravida diam. Suspendisse potenti. Curabitur venenatis mauris id tortor suscipit eu sagittis turpis dignissim. Nunc fringilla posuere elit, sit amet interdum libero volutpat eget. Praesent posuere urna at libero pretium tincidunt. In facilisis lectus eu risus euismod ut commodo augue porttitor.<br /><br />Pellentesque vulputate porta est, sit amet elementum sapien blandit quis. Fusce porttitor aliquet lectus a vestibulum. Vivamus sit amet mauris sit amet metus condimentum viverra sed a massa. Vestibulum sit amet tempor neque. Vivamus in leo nisl, et fermentum eros. Proin ac libero tortor, vitae volutpat sapien. Ut vehicula mauris et metus consectetur molestie. Integer urna est, tempor nec laoreet a, condimentum ac neque. Donec posuere, erat ac tincidunt sollicitudin, orci risus mattis lorem, quis egestas sem nulla non quam. In non turpis non metus ultrices fermentum eget a odio. Quisque orci magna, vehicula at consequat ut, imperdiet a felis. Aliquam ultricies laoreet tellus. Proin sodales, ipsum vel aliquet fringilla, urna neque vulputate elit, sit amet fermentum eros lacus vel eros. Proin dignissim gravida volutpat. Aliquam pulvinar elit ut nunc sagittis iaculis. Phasellus dignissim felis vel orci fermentum sed pharetra neque tincidunt. Curabitur justo nibh, ultricies a ultrices ac, laoreet vitae lorem.<br /><br />Nunc iaculis risus ut sem dictum id tincidunt diam viverra. In eros augue, tempor nec hendrerit quis, facilisis nec leo. Praesent et tortor nisl. Vivamus est nunc, consequat quis tincidunt nec, dignissim posuere erat. Mauris tortor tellus, lacinia et bibendum quis, scelerisque et augue. Donec semper, erat in tincidunt suscipit, metus mauris ultrices magna, ac malesuada massa mi eu massa. Fusce laoreet odio quis odio posuere congue. Vivamus sed tortor at diam interdum sagittis. Etiam eleifend dolor eu felis egestas id mollis massa tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur fermentum felis, vitae suscipit nibh viverra id. Cras viverra imperdiet felis. Ut non sem in quam suscipit faucibus at sit amet lectus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam nec nibh eu nisl lobortis mollis. Aenean metus elit, varius malesuada ullamcorper sed, laoreet id odio.</normal_text><!-- END -->]]></description>
+		
+		<item>
+			
+			<thumbnail>images/portfolio/metro_sports/thumbs/1.jpg</thumbnail>
+			<large>images/portfolio/metro_sports/1.jpg</large>
+
+		
+		</item>
+		
+		<item>
+		
+			<thumbnail>images/portfolio/metro_sports/thumbs/2.jpg</thumbnail>
+			<large>images/portfolio/metro_sports/2.jpg</large>
+		
+		</item>
+		
+		<item>
+		
+			<thumbnail>images/portfolio/metro_sports/thumbs/3.jpg</thumbnail>
+			<large>images/portfolio/metro_sports/3.jpg</large>
+		
+		</item>
+		
+	</category>
+	
+	
+	
+	
+	
+	<category thumbWidth="150" thumbHeight="100">
+		
+		<title><![CDATA[<!-- BEGIN -->DETROIT EXTREME SPORTS AD<!-- END -->]]></title>
+				<description><![CDATA[<!-- BEGIN --><normal_text>Vestibulum sit amet nisl vel arcu aliquam faucibus. <a href="http://www.activeden.net" target="_blank">Aenean neque</a> diam, varius a congue id, euismod quis ante. Sed scelerisque scelerisque faucibus. Nullam consequat imperdiet diam eget adipiscing. Pellentesque in purus enim. Praesent sollicitudin blandit sem, ut egestas eros euismod vitae. Duis blandit, nibh non pulvinar venenatis, erat est ultrices tellus, eget molestie lectus turpis ac tellus. Curabitur pretium ornare libero, vitae sagittis velit varius vitae. Integer quis dolor tempus enim sollicitudin lobortis et sollicitudin odio. Proin id quam lacus, quis hendrerit velit. Sed posuere nulla at mi laoreet et scelerisque libero lacinia. Donec at ligula suscipit elit pellentesque volutpat. Duis at mauris diam, tincidunt sodales nibh. Maecenas egestas porta eros aliquet laoreet. Sed sollicitudin purus et metus commodo malesuada. Morbi facilisis aliquam nisl, vel suscipit ligula sollicitudin vel. Suspendisse potenti. Duis ut dignissim arcu.</normal_text><!-- END -->]]></description>
+		
+		<item>
+		
+			<thumbnail>images/portfolio/sport_event/thumbs/1.jpg</thumbnail>
+			<large>images/portfolio/sport_event/1.jpg</large>
+		
+		</item>
+		
+		
+		<item>
+		
+			<thumbnail>images/portfolio/sport_event/thumbs/2.jpg</thumbnail>
+			<large>images/portfolio/sport_event/2.jpg</large>
+		
+		</item>
+		
+		
+		<item>
+		
+			<thumbnail>images/portfolio/sport_event/thumbs/3.jpg</thumbnail>
+			<large>images/portfolio/sport_event/3.jpg</large>
+		
+		</item>
+		
+	
+	</category>
+	
+
+
+</data>
+
+
+
+
+
+

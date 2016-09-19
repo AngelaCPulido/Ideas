@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<data>
+	
+	<!-- menuTitle = the title of the menu item -->
+	<!-- deepLinkURL = the deep-link url page name -->
+	<!-- image "align" = what point to align your background image -->
+	<!-- image = the url of your background image -->
+	<!-- module "thirdParty = if the swf is your onw and not a module from the template -->
+	<!-- module = the module to load in for the page -->
+	<!-- moduleType = the type of module to load in.  see below for options -->
+	<!-- moduleXML = the url of the module's xml file -->
+	
+	<!-- 
+	
+	ACCEPTED PARAMETERS FOR BACKGROUND ALIGN: "bgAlign"
+	
+	tl = top-left;
+	tc = top-center;
+	tr = top-right
+	
+	lc = left-center
+	mc = middle-center
+	rc = right-center
+	
+	bl = bottom-left
+	bc = bottom-center
+	br = bottom-right
+	
+	-->
+	
+	<!-- BELOW ARE THE ACCEPTED PARAMETERS FOR EACH MODULE FOR THE "modulePos" node
+
+	
+	longText:
+	
+	1) "left"
+	2) "center"
+	3) "right"
+	
+	// ****************************
+	
+	gallery:
+	
+	1) "lc" (left-center)
+	
+	// ****************************
+	
+	portfolio:
+	
+	1) "tc" (top-center)
+	
+	// ****************************
+	
+	news: 
+	
+	1) "lc" (left-center)
+	
+	// ****************************
+	
+	banner:
+	
+	1) "tl" (top-left)
+	2) "tc" (top-center)
+	3) "tr" (top-right)
+	
+	4) "lc" (left-center)
+	5) "mc" (middle-center)
+	6) "rc" (right-center)
+	
+	7) "bl" (bottom-left)
+	8) "bc" (bottom-center)
+	9) "br" (bottom-right)
+	
+	// *****************************
+
+	
+	contact:
+	
+	1) "tl" (top-left)
+	2) "tc" (top-center)
+	3) "tr" (top-right)
+	
+	4) "lc" (left-center)
+	5) "mc" (middle-center)
+	6) "rc" (right-center)
+	
+	7) "bl" (bottom-left)
+	8) "bc" (bottom-center)
+	9) "br" (bottom-right)
+	
+	-->
+	
+	
+	
+	<!--
+	
+	accepted parameters for module type:
+	
+	1) customModule
+	2) yourSwf
+	
+
+	
+	SPECIAL NOTES:
+	
+	// A static image or 3rd party swf can be loaded as a module.  
+	// If a 3rd party swf is loaded, the moduleXML parameter will be ignored
+	// If you wish to not load in a module (for example a menu item that has a sub-menu), 
+	// write null for all parameters except the "menuTitle"
+	
+	// deepLinkURL will be converted to lower-case
+	// deepLinkURL will be joined to one string/word...
+	// For example: "my photos" would become "myphotos"
+	// however, "my_photos" would remain "my_photos"
+	
+	-->
+	
+	<page>
+		<menuTitle>INICIO</menuTitle>
+		<deepLinkURL>home</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/1.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>banner.swf</moduleURL>
+		<modulePos>mc</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/banner.xml</moduleXML>
+	</page>
+	
+	<page>
+		<menuTitle>XXXX </menuTitle>
+		<deepLinkURL>philosophy</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/2.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>longtext.swf</moduleURL>
+		<modulePos>right</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/about.xml</moduleXML>
+	</page>
+	
+	<page>
+		<menuTitle>QUIENES SOMOS</menuTitle>
+		<deepLinkURL>about us</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/3.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>longtext.swf</moduleURL>
+		<modulePos>center</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/text.xml</moduleXML>
+	</page>
+	
+	<page>
+		<menuTitle>PIEZAS PUBLICITARIAS</menuTitle>
+		<deepLinkURL>services</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/4.jpg</bgURL>
+		<bgAlign>mc</bgAlign>
+		<moduleURL>services.swf</moduleURL>
+		<modulePos>lc</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/services.xml</moduleXML>
+	</page>
+	
+	<page>
+		<menuTitle>IMAGEN CORPORATIVA </menuTitle>
+		<deepLinkURL>portfolio</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/7.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>portfolio.swf</moduleURL>
+		<modulePos>tc</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/portfolio.xml</moduleXML>
+	</page>
+	
+	<page>
+		<menuTitle>FOTOGRAFÍA</menuTitle>
+		<deepLinkURL>images</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/11.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>gallery.swf</moduleURL>
+		<modulePos>lc</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/images.xml</moduleXML>
+	</page>
+	
+	<page>
+		<menuTitle>WEB</menuTitle>
+		<deepLinkURL>videos</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/12.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>gallery.swf</moduleURL>
+		<modulePos>lc</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/videos.xml</moduleXML>
+	</page>
+	
+    <page>
+		<menuTitle>MIXED MEDIA</menuTitle>
+		<deepLinkURL>mixed media</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/8.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>gallery.swf</moduleURL>
+		<modulePos>lc</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/mixed_media.xml</moduleXML>
+	</page>
+	
+	<page>
+		<menuTitle>NEWS</menuTitle>
+		<deepLinkURL>news</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/9.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>news.swf</moduleURL>
+		<modulePos>lc</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/news.xml</moduleXML>
+	</page>
+	
+	<page>
+		<menuTitle>DEMO REEL</menuTitle>
+		<deepLinkURL>demo reel</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/5.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>videoplayer.swf</moduleURL>
+		<modulePos>mc</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/video.xml</moduleXML>
+	</page>
+	
+	<page>
+		<menuTitle>EDITORIAL</menuTitle>
+		<deepLinkURL>single swf</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/6.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>images/yourswf/yourswf.swf</moduleURL>
+		<modulePos>mc</modulePos>
+		<moduleType>yourSwf</moduleType>	
+	
+	<page>
+	
+		<menuTitle>FOTOGRAFIA</menuTitle>
+		<deepLinkURL>null</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>null</bgURL>
+		<moduleXML>null</moduleXML>
+	</page>
+
+		<bgAlign>null</bgAlign>
+		<moduleURL>null</moduleURL>
+		<modulePos>null</modulePos>
+		<moduleType>null</moduleType>
+		<moduleXML>null</moduleXML>
+		
+		<subMenu>
+		
+			<subPage>
+				<menuTitle>Fotografia de Modas</menuTitle>
+				<deepLinkURL>images</deepLinkURL>
+		        <urlTarget>_self</urlTarget>
+		        <bgURL>images/backgrounds/11.jpg</bgURL>
+		        <bgAlign>tl</bgAlign>
+		        <moduleURL>gallery.swf</moduleURL>
+		        <modulePos>lc</modulePos>
+		        <moduleType>customModule</moduleType>
+		        <moduleXML>xml/images.xml</moduleXML>
+			</subPage>
+			
+			<subPage>
+				<menuTitle>Fotografia de Producto</menuTitle>
+				<deepLinkURL>images2</deepLinkURL>
+		        <urlTarget>_self</urlTarget>
+		        <bgURL>images/backgrounds/11.jpg</bgURL>
+		        <bgAlign>tl</bgAlign>
+		        <moduleURL>gallery.swf</moduleURL>
+		        <modulePos>lc</modulePos>
+		        <moduleType>customModule</moduleType>
+		        <moduleXML>xml/images2.xml</moduleXML>
+			</subPage>
+			
+			
+			<subPage>
+				<menuTitle>Foto periodismo</menuTitle>
+				<deepLinkURL>images3</deepLinkURL>
+		        <urlTarget>_self</urlTarget>
+		        <bgURL>images/backgrounds/11.jpg</bgURL>
+		        <bgAlign>tl</bgAlign>
+		        <moduleURL>gallery.swf</moduleURL>
+		        <modulePos>lc</modulePos>
+		        <moduleType>customModule</moduleType>
+		        <moduleXML>xml/images3.xml</moduleXML>
+			</subPage>
+			
+			
+		</subMenu>
+
+	</page>
+	
+	
+	
+	<page>
+		<menuTitle>TWITTER</menuTitle>
+		<deepLinkURL>http://www.activeden.net</deepLinkURL>
+		<urlTarget>_blank</urlTarget>
+		<bgURL>images/backgrounds/15.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>contact.swf</moduleURL>
+		<modulePos>mc</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>null</moduleXML>
+	</page>
+	
+	
+	<page>
+		<menuTitle>CONTACT</menuTitle>
+		<deepLinkURL>contact</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/16.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>contact.swf</moduleURL>
+		<modulePos>mc</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/contact.xml</moduleXML>
+	</page>
+	
+	<page>
+		<menuTitle>Q FEATURES</menuTitle>
+		<deepLinkURL>features</deepLinkURL>
+		<urlTarget>_self</urlTarget>
+		<bgURL>images/backgrounds/17.jpg</bgURL>
+		<bgAlign>tl</bgAlign>
+		<moduleURL>longtext.swf</moduleURL>
+		<modulePos>center</modulePos>
+		<moduleType>customModule</moduleType>
+		<moduleXML>xml/qfeatures.xml</moduleXML>
+	</page>
+	
+	
+</data>

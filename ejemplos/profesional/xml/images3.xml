@@ -1,0 +1,163 @@
+<data>
+	
+	<settings>
+	
+		<thumbWidth>250</thumbWidth>
+		<thumbHeight>370</thumbHeight>
+		<useStyleSheet>true</useStyleSheet>
+		<cssURL>css/textstyle.css</cssURL>
+		
+		<useNumbers>true</useNumbers>
+		<numberSize>128</numberSize>
+		<numberColor>#FFFFFF</numberColor>
+		<numberX>60</numberX>
+		<numberY>110</numberY>
+		
+		<videoVolume>100</videoVolume>
+		<videoBuffering>3</videoBuffering>
+	
+	</settings>
+	
+		<item>
+		<thumbURL>images/gallery/thumbs/1.jpg</thumbURL>
+		<thumbDescription>VICTORIA ADAMS</thumbDescription>
+		<largeURL>images/gallery/1.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->VICTORIA - JULY'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Cras vitae felis magna. Fusce sed risus magna. Nullam iaculis, orci euismod venenatis varius, justo mauris malesuada diam, dignissim cursus eros magna at erat. Nunc vitae nisi mi, in fringilla arcu. Nullam a est massa. Praesent id libero vel libero iaculis suscipit. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/2.jpg</thumbURL>
+		<thumbDescription><![CDATA[<!-- BEGIN -->CHRISTINA JONHSON<!-- END -->]]></thumbDescription>
+		<largeURL>images/gallery/2.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->CHRISTINA - JANUARY'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Nunc vestibulum nibh a sapien pharetra lobortis. In hac habitasse platea dictumst. Nam eu sapien nibh. Nullam condimentum augue quis lectus posuere varius. Cras mollis tempor nulla, ut adipiscing quam aliquam nec. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla laoreet rutrum libero vel placerat. Aliquam placerat mollis ipsum, at dapibus elit malesuada vel. Donec porta vulputate nulla at viverra. Nunc et semper diam. Phasellus vulputate, quam sed condimentum euismod, velit nisi sollicitudin erat, id luctus nisi quam ut sapien. Morbi vel metus libero. Vestibulum vitae elit ipsum. Duis congue tincidunt velit id consectetur. Nulla mollis turpis at lacus condimentum molestie. Aenean ornare feugiat eros, ac dapibus lacus luctus eget.</normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/3.jpg</thumbURL>
+		<thumbDescription>EMMA SMITH</thumbDescription>
+		<largeURL>images/gallery/3.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->EMMA - FEBRUARY'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>In vel convallis augue. Donec auctor ullamcorper ultrices. Aenean ut purus leo. Aenean ornare lobortis posuere. Ut nec nisl turpis, vel laoreet lectus. Quisque fermentum lacus accumsan arcu ultricies eleifend.</normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/4.jpg</thumbURL>
+		<thumbDescription>JENNIFER WILIAMS</thumbDescription>
+		<largeURL>images/gallery/4.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->JENNIFER - MARCH'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Maecenas facilisis ligula quis dui consectetur laoreet. Suspendisse congue tempor eleifend. Mauris mauris dolor, aliquam in porttitor quis, condimentum nec turpis. Phasellus non velit quis eros vehicula porta ut non urna. Integer id nisi mi. Nunc mi nunc, pharetra ut consectetur in, facilisis non elit.</normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/5.jpg</thumbURL>
+		<thumbDescription>KIRSTIE MOORE</thumbDescription>
+		<largeURL>images/gallery/5.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->KIRSTIE - APRIL'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere massa eget ante rutrum semper. Praesent bibendum fringilla blandit. Suspendisse vehicula tortor vitae ipsum pharetra pretium condimentum odio eleifend. Donec vel massa ligula, in ultrices erat.</normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/6.jpg</thumbURL>
+		<thumbDescription>PAMELA JONES</thumbDescription>
+		<largeURL>images/gallery/6.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->PAMELA - MAY'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Etiam nec leo magna, sit amet sollicitudin lacus. Pellentesque placerat vulputate elit et fermentum. Nulla accumsan fringilla sem a sagittis. Nam laoreet, lorem id tempus ultricies, felis risus posuere neque, sit amet accumsan sem nunc at urna. Ut tristique congue consequat. Mauris sed ullamcorper magna. Suspendisse facilisis purus vel metus lobortis eu mattis felis accumsan. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/7.jpg</thumbURL>
+		<thumbDescription>GINA ANDERSON</thumbDescription>
+		<largeURL>images/gallery/7.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->GINA - JUNE'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Vivamus nibh diam, sollicitudin vitae rhoncus ut, gravida aliquam mauris. Donec sed ante at nulla eleifend convallis. Aenean tempor tempus erat quis molestie. Proin laoreet sagittis ullamcorper. Cras turpis nisi, fermentum vel ornare in, varius eu ligula. Nullam et semper lorem. Morbi ac massa quis mi blandit malesuada eget id tellus. Pellentesque consectetur egestas tortor in ultrices. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/8.jpg</thumbURL>
+		<thumbDescription>GINA ANDERSON</thumbDescription>
+		<largeURL>images/gallery/8.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->GINA - JUNE'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Vivamus nibh diam, sollicitudin vitae rhoncus ut, gravida aliquam mauris. Donec sed ante at nulla eleifend convallis. Aenean tempor tempus erat quis molestie. Proin laoreet sagittis ullamcorper. Cras turpis nisi, fermentum vel ornare in, varius eu ligula. Nullam et semper lorem. Morbi ac massa quis mi blandit malesuada eget id tellus. Pellentesque consectetur egestas tortor in ultrices. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+
+<item>
+		<thumbURL>images/gallery/thumbs/9.jpg</thumbURL>
+		<thumbDescription>GINA ANDERSON</thumbDescription>
+		<largeURL>images/gallery/9.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->GINA - JUNE'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Vivamus nibh diam, sollicitudin vitae rhoncus ut, gravida aliquam mauris. Donec sed ante at nulla eleifend convallis. Aenean tempor tempus erat quis molestie. Proin laoreet sagittis ullamcorper. Cras turpis nisi, fermentum vel ornare in, varius eu ligula. Nullam et semper lorem. Morbi ac massa quis mi blandit malesuada eget id tellus. Pellentesque consectetur egestas tortor in ultrices. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/10.jpg</thumbURL>
+		<thumbDescription>GINA ANDERSON</thumbDescription>
+		<largeURL>images/gallery/10.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->GINA - JUNE'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Vivamus nibh diam, sollicitudin vitae rhoncus ut, gravida aliquam mauris. Donec sed ante at nulla eleifend convallis. Aenean tempor tempus erat quis molestie. Proin laoreet sagittis ullamcorper. Cras turpis nisi, fermentum vel ornare in, varius eu ligula. Nullam et semper lorem. Morbi ac massa quis mi blandit malesuada eget id tellus. Pellentesque consectetur egestas tortor in ultrices. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/11.jpg</thumbURL>
+		<thumbDescription>GINA ANDERSON</thumbDescription>
+		<largeURL>images/gallery/11.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->GINA - JUNE'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Vivamus nibh diam, sollicitudin vitae rhoncus ut, gravida aliquam mauris. Donec sed ante at nulla eleifend convallis. Aenean tempor tempus erat quis molestie. Proin laoreet sagittis ullamcorper. Cras turpis nisi, fermentum vel ornare in, varius eu ligula. Nullam et semper lorem. Morbi ac massa quis mi blandit malesuada eget id tellus. Pellentesque consectetur egestas tortor in ultrices. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/12.jpg</thumbURL>
+		<thumbDescription>GINA ANDERSON</thumbDescription>
+		<largeURL>images/gallery/12.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->GINA - JUNE'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Vivamus nibh diam, sollicitudin vitae rhoncus ut, gravida aliquam mauris. Donec sed ante at nulla eleifend convallis. Aenean tempor tempus erat quis molestie. Proin laoreet sagittis ullamcorper. Cras turpis nisi, fermentum vel ornare in, varius eu ligula. Nullam et semper lorem. Morbi ac massa quis mi blandit malesuada eget id tellus. Pellentesque consectetur egestas tortor in ultrices. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/13.jpg</thumbURL>
+		<thumbDescription>GINA ANDERSON</thumbDescription>
+		<largeURL>images/gallery/13.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->GINA - JUNE'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Vivamus nibh diam, sollicitudin vitae rhoncus ut, gravida aliquam mauris. Donec sed ante at nulla eleifend convallis. Aenean tempor tempus erat quis molestie. Proin laoreet sagittis ullamcorper. Cras turpis nisi, fermentum vel ornare in, varius eu ligula. Nullam et semper lorem. Morbi ac massa quis mi blandit malesuada eget id tellus. Pellentesque consectetur egestas tortor in ultrices. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/14.jpg</thumbURL>
+		<thumbDescription>GINA ANDERSON</thumbDescription>
+		<largeURL>images/gallery/14.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->GINA - JUNE'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Vivamus nibh diam, sollicitudin vitae rhoncus ut, gravida aliquam mauris. Donec sed ante at nulla eleifend convallis. Aenean tempor tempus erat quis molestie. Proin laoreet sagittis ullamcorper. Cras turpis nisi, fermentum vel ornare in, varius eu ligula. Nullam et semper lorem. Morbi ac massa quis mi blandit malesuada eget id tellus. Pellentesque consectetur egestas tortor in ultrices. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	
+	<item>
+		<thumbURL>images/gallery/thumbs/15.jpg</thumbURL>
+		<thumbDescription>GINA ANDERSON</thumbDescription>
+		<largeURL>images/gallery/15.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->GINA - JUNE'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Vivamus nibh diam, sollicitudin vitae rhoncus ut, gravida aliquam mauris. Donec sed ante at nulla eleifend convallis. Aenean tempor tempus erat quis molestie. Proin laoreet sagittis ullamcorper. Cras turpis nisi, fermentum vel ornare in, varius eu ligula. Nullam et semper lorem. Morbi ac massa quis mi blandit malesuada eget id tellus. Pellentesque consectetur egestas tortor in ultrices. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+	<item>
+		<thumbURL>images/gallery/thumbs/16.jpg</thumbURL>
+		<thumbDescription>GINA ANDERSON</thumbDescription>
+		<largeURL>images/gallery/16.jpg</largeURL>
+		<largeTitle><![CDATA[<!-- BEGIN -->GINA - JUNE'S MODEL<!-- END -->]]></largeTitle>
+		<largeDescription><![CDATA[<!-- BEGIN --><normal_text>Vivamus nibh diam, sollicitudin vitae rhoncus ut, gravida aliquam mauris. Donec sed ante at nulla eleifend convallis. Aenean tempor tempus erat quis molestie. Proin laoreet sagittis ullamcorper. Cras turpis nisi, fermentum vel ornare in, varius eu ligula. Nullam et semper lorem. Morbi ac massa quis mi blandit malesuada eget id tellus. Pellentesque consectetur egestas tortor in ultrices. </normal_text><!-- END -->]]></largeDescription>
+		<videoImage></videoImage>
+	</item>
+</data>

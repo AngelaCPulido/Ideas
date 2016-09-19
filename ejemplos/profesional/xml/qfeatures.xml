@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<data>
+
+
+<!-- ********************* -->
+<!-- START TEXT FIELD DATA -->
+<!-- ********************* -->
+
+
+	
+	<settings>
+		
+		<!-- moduleAlign = choose to position the module.  Options are "left", "center" and "right" -->
+		<!-- textAndBannerWidth = the total width of the module/text area -->
+		<!-- bannerHeight = the total width of the banner if applicable -->
+		<!-- useBanner = decide to use a banner or not, "true" or "false" -->
+		<!-- bannerURL "type" = the type of module you want to load.  See options below -->
+		<!-- bannerUrl = the url of your banner (swf or image), only applicable if useBanner is set to "true" -->
+		<!-- bannerXml = the xml file of the kenBurns  -->
+		<!-- useStyleSheet = decide whether to use a style-sheet for your html text, "true" or "false" -->
+		<!-- styleSheetUrl = the url of your css style-sheet if "useStyleSheet" is set to true -->
+		<!-- textAlign = the default text alignment you wish to apply.  Options are listed below -->
+		
+		<!--
+		
+		"bannerType" options are:
+		
+		1) kenBurns
+		2) image
+		3) yourSwf
+		
+		-->
+		
+		<!--
+		
+		"textAlign" options are:
+		
+		1) left
+		2) right
+		3) center
+		4) justify
+		5) dynamic 
+		
+		"dynamic" will have right-aligned text on the right if a scrollbar is not needed, and be left-aligned if a scrollbar is needed
+		
+		-->
+		
+		
+		<textAndBannerWidth>600</textAndBannerWidth>
+		<bannerHeight>225</bannerHeight>
+		
+		<useBanner>false</useBanner>
+		<bannerType></bannerType>
+		<imageSwfURL>images/longText/about.jpg</imageSwfURL>
+		
+		<useStyleSheet>true</useStyleSheet>
+		<styleSheetUrl>css/textstyle.css</styleSheetUrl>
+		
+		<textAlign>dynamic</textAlign>
+		
+	</settings>
+	
+	<!-- 
+	
+	text = your Flash compatible hmtl text.  Please visit the link below for what html attributes Flash allows:
+	http://livedocs.adobe.com/flash/9.0/ActionScriptLangRefV3/flash/text/TextField.html#htmlText
+	
+	-->
+
+	<text><![CDATA[<!-- BEGIN --><title_text>LOADED WITH OPTIONS</title_text><br/><br/><medium_text>- Deep-Linking Two-Level Menu for SEO<br/><br/>- All modules are resizeable<br/><br/>- Fully XML driven<br/><br/>- Elegant Banner Rotator with tons of options<br/><br/>- Media Gallery that supports Images, SWF and Video<br/><br/>- Portfolio that supports Slideshow, Images, SWF and Video<br/><br/>- HTML Text Module with Ken Burns Slideshow, Image or SWF<br/><br/>- Flexible News/Services module that's also ideal for displaying products or the team<br/><br/>- Contact Form that's fully customizable with unlimited fields<br/><br/>- An XML Setup that's easy to customize and well commented<br/><br/>- Every text field HTML compatible and CSS driven<br/><br/>- Real Music Equalizer with multiple song playback<br/><br/>- Choose from 9 different ways to position background images<br/><br/>- And many, many more options all XML driven ...</medium_text><!-- END -->]]></text>
+
+<!-- ******************* -->
+<!-- END TEXT FIELD DATA -->
+<!-- ******************* -->
+	
+</data>

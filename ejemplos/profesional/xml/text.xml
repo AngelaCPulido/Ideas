@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<data>
+
+
+<!-- ********************* -->
+<!-- START TEXT FIELD DATA -->
+<!-- ********************* -->
+
+
+	
+	<settings>
+		
+		<!-- moduleAlign = choose to position the module.  Options are "left", "center" and "right" -->
+		<!-- textAndBannerWidth = the total width of the module/text area -->
+		<!-- bannerHeight = the total width of the banner if applicable -->
+		<!-- useBanner = decide to use a banner or not, "true" or "false" -->
+		<!-- bannerURL "type" = the type of module you want to load.  See options below -->
+		<!-- bannerUrl = the url of your banner (swf or image), only applicable if useBanner is set to "true" -->
+		<!-- bannerXml = the xml file of the kenBurns  -->
+		<!-- useStyleSheet = decide whether to use a style-sheet for your html text, "true" or "false" -->
+		<!-- styleSheetUrl = the url of your css style-sheet if "useStyleSheet" is set to true -->
+		<!-- textAlign = the default text alignment you wish to apply.  Options are listed below -->
+		
+		<!--
+		
+		"bannerType" options are:
+		
+		1) kenBurns
+		2) image
+		3) yourSwf
+		
+		-->
+		
+		<!--
+		
+		"textAlign" options are:
+		
+		1) left
+		2) right
+		3) center
+		4) justify
+		5) dynamic 
+		
+		"dynamic" will have right-aligned text on the right if a scrollbar is not needed, and be left-aligned if a scrollbar is needed
+		
+		-->
+		
+		
+		<textAndBannerWidth>600</textAndBannerWidth>
+		<bannerHeight>225</bannerHeight>
+		
+		<useBanner>true</useBanner>
+		<bannerType>image</bannerType>
+		<imageSwfURL>images/longtext/about.jpg</imageSwfURL>
+		
+		<useStyleSheet>true</useStyleSheet>
+		<styleSheetUrl>css/textstyle.css</styleSheetUrl>
+		
+		<textAlign>dynamic</textAlign>
+		
+	</settings>
+	
+	<!-- 
+	
+	text = your Flash compatible hmtl text.  Please visit the link below for what html attributes Flash allows:
+	http://livedocs.adobe.com/flash/9.0/ActionScriptLangRefV3/flash/text/TextField.html#htmlText
+	
+	-->
+
+	<text><![CDATA[<!-- BEGIN --><title_text>OUR VISION</title_text><br/><normal_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="http://www.activeden.net" target="_blank">Hyperlink</a> tincidunt libero sit amet ultricies. Suspendisse turpis augue, dapibus rhoncus faucibus id, volutpat sit amet nisl. Vestibulum consequat rutrum fringilla. Fusce ac justo at nibh pulvinar congue in id neque. Curabitur est risus, scelerisque nec blandit ac, ornare posuere velit.</normal_text><br/><img src="images/longtext/600.png" width="600" height="1" border="0" hSpace="0" /><br/><br/><title_text>OUR PHILOSOPHY</title_text><br/><normal_text>Sed luctus mollis tempus. Sed quis urna in justo feugiat sollicitudin nec eu magna. Fusce rhoncus congue pretium. Quisque eu libero in sem dignissim placerat nec sit amet diam. Aenean lacinia dapibus. Donec risus justo, sollicitudin et cursus in, placerat id diam. Duis massa nunc, fringilla et faucibus quis, ultricies a massa. Curabitur arcu neque, luctus placerat mollis ut, tristique in felis. Proin fringilla aliquet arcu, nec convallis justo eleifend sit amet. Ut sodales mi a felis fermentum eget fringilla erat tristique. Curabitur mi nibh, vulputate quis viverra nec, consequat nec urna dolor sit amet rhoncus faucibus id.</normal_text><!-- END -->]]></text>
+
+<!-- ******************* -->
+<!-- END TEXT FIELD DATA -->
+<!-- ******************* -->
+
+	
+</data>

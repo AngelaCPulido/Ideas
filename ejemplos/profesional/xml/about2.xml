@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<data>
+
+
+<!-- ********************* -->
+<!-- START TEXT FIELD DATA -->
+<!-- ********************* -->
+
+
+	
+	<settings>
+		
+		<!-- moduleAlign = choose to position the module.  Options are "left", "center" and "right" -->
+		<!-- textAndBannerWidth = the total width of the module/text area -->
+		<!-- bannerHeight = the total width of the banner if applicable -->
+		<!-- useBanner = decide to use a banner or not, "true" or "false" -->
+		<!-- bannerURL "type" = the type of module you want to load.  See options below -->
+		<!-- bannerUrl = the url of your banner (swf or image), only applicable if useBanner is set to "true" -->
+		<!-- bannerXml = the xml file of the kenBurns  -->
+		<!-- useStyleSheet = decide whether to use a style-sheet for your html text, "true" or "false" -->
+		<!-- styleSheetUrl = the url of your css style-sheet if "useStyleSheet" is set to true -->
+		<!-- textAlign = the default text alignment you wish to apply.  Options are listed below -->
+		
+		<!--
+		
+		"bannerType" options are:
+		
+		1) kenBurns
+		2) image
+		3) yourSwf
+		
+		-->
+		
+		<!--
+		
+		"textAlign" options are:
+		
+		1) left
+		2) right
+		3) center
+		4) justify
+		5) dynamic 
+		
+		"dynamic" will have right-aligned text on the right if a scrollbar is not needed, and be left-aligned if a scrollbar is needed
+		
+		-->
+		
+		
+		<textAndBannerWidth>533</textAndBannerWidth>
+		<bannerHeight>252</bannerHeight>
+		
+		<useBanner>true</useBanner>
+		<bannerType>kenBurns</bannerType>
+		<imageSwfURL>null</imageSwfURL>
+		
+		<useStyleSheet>true</useStyleSheet>
+		<styleSheetUrl>css/textstyle.css</styleSheetUrl>
+		
+		<textAlign>dynamic</textAlign>
+		
+	</settings>
+	
+	<!-- 
+	
+	text = your Flash compatible hmtl text.  Please visit the link below for what html attributes Flash allows:
+	http://livedocs.adobe.com/flash/9.0/ActionScriptLangRefV3/flash/text/TextField.html#htmlText
+	
+	-->
+
+	<text><![CDATA[<!-- BEGIN --><title_text>OUR COMPANY</title_text><br /><normal_text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum venenatis tincidunt libero sit amet ultricies. Suspendisse turpis augue, dapibus rhoncus faucibus id, volutpat sit amet nisl. Vestibulum consequat rutrum fringilla. Fusce ac justo at nibh pulvinar congue in id neque. Curabitur est risus, scelerisque nec blandit ac, ornare posuere velit. Nulla facilisi. Etiam volutpat feugiat neque et hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <a href="http://www.activeden.net" target="_blank">Aliquam varius</a> convallis ante nec ultricies. Pellentesque id orci augue, scelerisque lacinia felis. Proin tristique lacinia enim in faucibus. Vestibulum consectetur, eros vel adipiscing vulputate, quam nulla luctus purus, eget consequat enim nisi ut turpis. Donec aliquet malesuada leo, sit amet tincidunt nisi volutpat in. Nam sit amet mauris odio. Etiam purus massa, blandit non pellentesque porttitor, molestie in enim. Sed varius vulputate odio, et porta leo condimentum at. Curabitur sodales augue eget elit mollis semper. Morbi condimentum lectus id erat commodo at rutrum tellus placerat.<br /><br />Sed luctus mollis tempus. Sed quis urna in justo feugiat sollicitudin nec eu magna. Fusce rhoncus congue pretium. Quisque eu libero in sem dignissim placerat nec sit amet diam. Aenean lacinia dapibus porttitor. Donec risus justo, sollicitudin et cursus in, placerat id diam. Duis massa nunc, fringilla et faucibus quis, ultricies a massa. Curabitur arcu neque, luctus placerat mollis ut, tristique in felis. Proin fringilla aliquet arcu, nec convallis justo eleifend sit amet. Ut sodales mi a felis fermentum eget fringilla erat tristique. Curabitur mi nibh, vulputate quis viverra nec, consequat nec urna. Fusce dictum tortor non lacus luctus in varius arcu blandit. Donec eu pretium enim. Fusce laoreet ipsum ac diam placerat ut scelerisque tellus ultricies. Duis sit amet lacus purus. Donec ut erat est. Curabitur mollis blandit felis, vitae vestibulum erat hendrerit ac. Vivamus blandit sagittis nulla, nec adipiscing eros egestas quis.</normal_text><!-- END -->]]></text>
+
+<!-- ******************* -->
+<!-- END TEXT FIELD DATA -->
+<!-- ******************* -->
+
+
+
+
+<!-- *************************** -->
+<!-- START KEN BURNS BANNER DATA -->
+<!-- *************************** -->
+
+<!-- ================================================================= -->
+<!-- THIS DATA CAN BE ERASED IF THE KEN BURNS MODULE IS NOT BEING USED -->
+<!-- ================================================================= -->
+
+
+	<!-- speed = the amount of seconds of each transition in seconds-->
+	<!-- borderSize = the size of the border in pixels (enter "0" here for no border) -->
+	<!-- borderColor = the color of the border in hexadecimal format -->
+	<!-- randomTransitions = randomizes start, end and in/out transition params, true/false -->
+	<!-- useOverlay = a blend filter that produces a "light flare" type transition, true/false -->
+	
+	<bannerSettings>
+		
+		<speed>10</speed>
+		<borderSize>2</borderSize>
+		<borderColor>#000000</borderColor>
+		<randomTransitions>false</randomTransitions>
+		<useOverlay>true</useOverlay>
+		
+	</bannerSettings>
+	
+	<!-- url = the url of your image -->
+	<!-- static = no transition, just a static image, true/false -->
+	<!-- start = the starting point of the Jen Burns transition -->
+	<!-- end = the ending point of the transition -->
+	<!-- direction = zoom in or zoom out -->
+	
+	<!-- accepted parameters for image "start" and "end" parameters:
+	
+	tl = top-left
+	tc = top-center
+	tr = top-right
+	lc = left-center
+	mc = middle-center
+	rc = right-center
+	bl = bottom-left
+	bc = bottom-center
+	br = bottom-right
+	
+	-->
+	
+	<!--
+	
+	accepted parameters for transition "direction":
+	
+	in = zoom-in
+	out = zoom-out
+	
+	-->
+	
+	<image>
+		<url>images/kenburns/img1.jpg</url>
+		<static>false</static>
+		<start>mc</start>
+		<end>bl</end>
+		<direction>in</direction>
+	</image>
+	
+	<image>
+		<url>images/kenburns/img2.jpg</url>
+		<static>false</static>
+		<start>mc</start>
+		<end>mc</end>
+		<direction>in</direction>
+	</image>
+	
+	<image>
+		<url>images/kenburns/img3.jpg</url>
+		<static>false</static>
+		<start>tr</start>
+		<end>br</end>
+		<direction>out</direction>
+	</image>
+	
+	
+<!-- ************************* -->	
+<!-- END KEN BURNS BANNER DATA -->
+<!-- ************************* -->	
+
+	
+</data>

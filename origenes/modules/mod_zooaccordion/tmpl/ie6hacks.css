@@ -1,0 +1,11 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme License (http://www.yootheme.com/license) */
+
+div.yoo-accordion dl div {
+	zoom: 1;
+	position: relative;
+}
+
+div.yoo-accordion dd div {
+	zoom: normal;
+	position: static;
+}

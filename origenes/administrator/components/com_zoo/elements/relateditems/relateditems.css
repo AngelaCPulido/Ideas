@@ -1,0 +1,72 @@
+/* Copyright (C) 2007 - 2010 YOOtheme GmbH, YOOtheme License (http://www.yootheme.com/license) */
+
+/*
+ * relateditems
+ */
+
+div.select-relateditems { overflow: hidden; }
+
+div.select-relateditems ul {
+	margin: 0px 0px 10px 0px;
+	padding: 0;
+	list-style-type: none;	
+}
+
+div.select-relateditems li {
+	padding: 10px 5px;
+	overflow: hidden;
+	border-top: 1px dotted #CCC;
+}
+
+div.select-relateditems li:hover { background: #F0F0F0; }
+
+div.select-relateditems li div {
+	margin: 0px 5px;
+	float: left;
+}
+
+div.select-relateditems div.item-name {
+	background: url(../../assets/images/page_white.png) 0 0 no-repeat;
+	text-indent: 22px;
+	line-height: 18px;
+	display: inline-block;
+}
+
+div.select-relateditems a.item-add {
+	margin: 0px 0px 0px 10px;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	background: url(../../assets/images/add.png) 5px 4px no-repeat;
+	text-indent: 20px;
+	color: #000000;
+	cursor: pointer;
+	display: block;
+	float: left;
+}
+
+div.select-relateditems a.item-add:hover {
+	background-color: #F0F0F0;
+	text-decoration: none;
+}
+
+div.select-relateditems div.item-sort,
+div.select-relateditems div.item-delete { display: none; }
+
+div.select-relateditems li:hover div.item-sort { background: url(../../assets/images/sort.png) 0 0 no-repeat; }
+div.select-relateditems li:hover div.item-delete { background: url(../../assets/images/delete.png) 0 0 no-repeat; }
+div.select-relateditems li:hover div.item-sort,
+div.select-relateditems li:hover div.item-delete {
+	display: block;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+div.select-relateditems li:hover div.item-sort { cursor: move; }
+
+div.select-relateditems li:hover div.item-delete {
+	display: block;
+	background: url(../../assets/images/delete.png) 0 0 no-repeat;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}

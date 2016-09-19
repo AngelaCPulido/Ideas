@@ -1,0 +1,81 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Pin Up</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		
+		<!-- Adjust the url paths to the javascript files here -->
+		<script type="text/javascript" src="js/swfobject.js"></script>
+		<script type="text/javascript" src="js/swfaddress.js"></script>
+		<script type="text/javascript" src="js/swfmacmousewheel2.js"></script>
+		
+		<script type="text/javascript">
+			var flashvars = {};
+			
+			// set the url to the template xml file
+			flashvars.configXML = "xml/config.xml";
+			flashvars.swfURL = "qcreative.swf";
+			
+			var params = {};
+			params.quality = "high";
+			params.scale = "noscale";
+			params.salign = "tl";
+			params.wmode = "window";
+			params.bgcolor = "#000000";
+			params.devicefont = "false";
+			params.allowfullscreen = "true";
+			params.allowscriptaccess = "always";
+			var attributes = {};
+			attributes.id = "qCreative";
+			attributes.name = "qCreative";
+			
+			// adjust the path to the main template swf here
+			swfobject.embedSWF("master.swf", "alternativeFlashContent", "100%", "100%", "9.0.0", "expressInstall.swf", flashvars, params, attributes);
+			swfmacmousewheel.registerObject(attributes.id);
+		</script>
+		
+		<!-- For no margins/scrollbar and minimum size -->
+		<style type="text/css">
+			html {
+				overflow:auto;
+			}
+			body { 
+				background-color: #000000;
+				height: 100%; 
+				width:100%; 
+				margin: 0; 
+				overflow:auto;
+			}
+			#minimum {
+				min-width: 990px;
+				min-height: 500px;
+				width: 100%;
+				height: 100%;
+
+				/* For IE */
+				width: expression( Math.max( document.body.clientWidth,990 ) + "px" );
+				height: expression( Math.max(document.body.clientHeight, 500 ) + "px" );
+			}
+			
+			/* This fixes an outline bug for swfObject */
+			#qCreative {
+				outline: none;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+	
+		<!-- For minimum browser size -->
+		<div id="minimum">
+		  <div id="alternativeFlashContent">
+		
+				<!-- This is where you would place alternative html content -->
+		
+				<a href="http://www.adobe.com/go/getflashplayer">
+					<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
